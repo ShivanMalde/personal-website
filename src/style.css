@@ -2976,7 +2976,7 @@ input[type="button"].btn-block {
 
 #main-nav:target+.page-wrap {
     width: 60%;
-    overflow-x: hidden
+    overflow-x: scroll
 }
 
 #main-nav:target+.page-wrap .open-menu {
