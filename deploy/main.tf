@@ -1,26 +1,32 @@
 terraform {
   required_providers {
     azurerm = {
-      version = "~>3.52"
+      version = "~>4.0"
     }
+  }
+
+  backend "azurerm" {
+    resource_group_name = "shared-rg"
+    storage_account_name = "shivantfstatestorage"
+    container_name = "tfstate"
+    key = "personal-website.terraform.tfstate"
   }
 }
 
 provider "azurerm" {
+  subscription_id = "b3d213a8-bf35-48f0-86d0-46dc0e727d98" # Sandbox
   features {
     
   }
 }
 
-resource "azurerm_resource_group" "websiteResourceGroup" {
-  name = var.websiteResourceGroupName
-  location = "West Europe"
+locals {
+  subscriptionId = "b3d213a8-bf35-48f0-86d0-46dc0e727d98"
+  websiteResourceGroupName = "shivan-website-weu-rg"
+  websiteStaticWebAppName = "shivan-website-weu-stapp"
 }
 
-resource "azurerm_static_site" "websiteStaticWebApp" {
-  name = var.websiteStaticWebAppName
-  resource_group_name = azurerm_resource_group.websiteResourceGroup.name
+resource "azurerm_resource_group" "websiteResourceGroup" {
+  name = local.websiteResourceGroupName
   location = "West Europe"
-  sku_size = "Free"
-  sku_tier = "Free"
 }
