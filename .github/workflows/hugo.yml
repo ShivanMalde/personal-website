@@ -2,7 +2,7 @@ name: Deploy Hugo Site to Azure Static Web Apps
 
 on:
   push:
-    branches: [ main ]
+    branches: [ '**' ]
 
 env:
   WORKING_DIRECTORY: './hugo-site'
@@ -35,4 +35,3 @@ jobs:
         action: 'upload'
         app_location: ${{ env.WORKING_DIRECTORY }}/public
         skip_api_build: true
-        build_timeout_in_minutes: 30
