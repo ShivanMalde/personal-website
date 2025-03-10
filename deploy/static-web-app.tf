@@ -4,6 +4,9 @@ resource "azurerm_static_web_app" "websiteStaticWebApp" {
   location            = "West Europe"
   sku_size            = "Free"
   sku_tier            = "Free"
+  lifecycle {
+    ignore_changes = [ repository_branch, repository_token, repository_url ]
+  }
 }
 
 import {
