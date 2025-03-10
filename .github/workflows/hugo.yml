@@ -1,0 +1,38 @@
+name: Deploy Hugo Site to Azure Static Web Apps
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  WORKING_DIRECTORY: './hugo-site'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # - name: Set up Hugo
+    #   run: |
+    #     echo "Setting up Hugo..."
+    #     curl -LO https://github.com/gohugoio/hugo/releases/download/v0.58.0/hugo_0.58.0_Linux-64bit.deb
+    #     sudo dpkg -i hugo_0.58.0_Linux-64bit.deb
+        
+    # - name: Build Hugo site
+    #   run: |
+    #     echo "Building Hugo site..."
+    #     cd ${{ env.WORKING_DIRECTORY }}
+    #     hugo --minify --baseURL "${{ secrets.BASE_URL }}"
+
+    - name: Deploy to Azure Static Web Apps
+      uses: Azure/static-web-apps-deploy@v1
+      with:
+        azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        action: 'upload'
+        app_location: ${{ env.WORKING_DIRECTORY }}/public
+        skip_api_build: true
+        build_timeout_in_minutes: 30
