@@ -1,0 +1,69 @@
+baseURL = 'https://shivanmalde.com/'
+languageCode = 'en-gb'
+title = 'Shivan Malde | DevOps Manager and Platform Engineer'
+theme = "hugo-coder"
+
+[params]
+author = "Shivan Malde"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Shivan Malde's personal website"
+keywords = "blog,developer,personal"
+info = ["Full Stack DevOps", "Magician"]
+avatarURL = "img/pro_portrait.jpg"
+dateFormat = "2 January 2006"
+
+# Git Commit in Footer, uncomment the line below to enable it
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Right To Left, shift content direction for languages such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+
+# Custom JS
+customJS = []
+
+# Custom remote JS files
+customRemoteJS = []
+
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/ShivanMalde"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/ShivanMalde"
+
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 4
+url = "mailto:hello@shivanmalde.com"
+
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
