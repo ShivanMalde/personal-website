@@ -30,8 +30,3 @@ resource "azurerm_resource_group" "websiteResourceGroup" {
   name     = local.websiteResourceGroupName
   location = "West Europe"
 }
-
-import {
-  to = azurerm_resource_group.websiteResourceGroup
-  id = "/subscriptions/b3d213a8-bf35-48f0-86d0-46dc0e727d98/resourceGroups/shivan-website-weu-rg"
-}
