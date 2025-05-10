@@ -1,8 +1,9 @@
 +++ 
-draft = true
+draft = false
 date = 2025-02-23T23:42:27Z
 title = ""
 slug = "" 
+socialShare = false
 +++
 
 # Shivan Malde
