@@ -22,6 +22,10 @@ description = 'My Website'
 mathjax = false
 animate = true
 socialShare = false
+staticPath = ""
+
+custom_css = ["css/custom.css"]
+
 
   [params.navbar]
   align = "ms-auto"
@@ -70,7 +74,7 @@ socialShare = false
   socialShare = false
 
     [params.singlePages.readTime]
-    enable = true
+    enable = false
     content = "min read"
 
     [params.singlePages.scrollprogress]
@@ -80,6 +84,6 @@ socialShare = false
     openInNewTab = true
 
   [params.datesFormat]
-  article = "2 Jan 2006"
+  article = " "
   articleList = "2 Jan 2006"
   articleRecent = "2 Jan 2006"
