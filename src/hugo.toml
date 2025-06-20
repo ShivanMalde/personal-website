@@ -61,6 +61,7 @@ custom_css = ["css/custom.css"]
     name = "Resume"
     url = "/about"
     newPage = false
+    download = false
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
     icon = "fab fa-github"
