@@ -69,43 +69,42 @@ I'm a London-based DevOps Manager and Platform Engineer with a proven track reco
 ## Technical Proficiencies
 
 {{< columns cols="3" >}}
-  {{< column >}}
-    Azure DevOps <br>
-    Azure AD/Entra ID <br>
-    GitHub <br>
-    Cloudflare <br>
-    <br>
-    <b>Azure</b> <br>
-    Kubernetes Service <br>
-    Blob storage <br>
-    Functions <br>
-    Logic apps<br>
-    Networking <br>    
-  {{< /column >}}
+{{< column >}}
+Azure DevOps \
+Azure AD/Entra ID \
+GitHub \
+Cloudflare
+
+**Azure**
+- Kubernetes Service 
+- Blob storage 
+- Functions 
+- Logic apps
+- Networking 
+{{< /column >}}
 
   {{< column >}}
-    PowerShell <br>
-    Terraform <br>
-    SQL <br>
-    Docker <br>
-    Kubernetes <br>
-    Helm <br>
-    C# <br>
-    <br>
-    <b>AWS</b><br>
-    EC2 <br>
-    Route 53 <br>
-    S3 <br>
+PowerShell \
+Terraform \
+SQL \
+Docker \
+Kubernetes \
+Helm \
+C# 
 
+**AWS**
+- EC2 
+- Route 53 
+- S3 
+{{< /column >}}
 
-  {{< /column >}}
+{{< column >}}
+SonarQube \
+Office 365 \
+Linux \
+WSL
+{{< /column >}}
 
-  {{< column >}}
-    SonarQube <br>
-    Office 365 <br>
-    Linux <br>
-    WSL <br>
-  {{< /column >}}
 {{< /columns >}}
 
 ---

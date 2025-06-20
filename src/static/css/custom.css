@@ -14,3 +14,8 @@
 .cols-2 .column { flex: 1 1 50%; }
 .cols-3 .column { flex: 1 1 33.333%; }
 .cols-4 .column { flex: 1 1 25%; }
+
+#single .page-content .columns .column ul {
+  margin-left: 0;
+  padding-left: 0em; /* Adjust as needed */
+}
