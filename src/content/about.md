@@ -8,7 +8,7 @@ toc = false
 
 # Shivan Malde
 
-I'm a London-based DevOps Manager and Platform Engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Over the past 7 years in the software industry, including 5 in a dedicated DevOps role — I have honed my skills in automation and optimization of the software development lifecycle through CI/CD using tools such as Terraform and Azure DevOps. I specialize in designing, implementing, and maintaining infrastructure on cloud platforms like Azure and AWS, with a particular focus on cloud native solutions like serverless functions, Docker, and Kubernetes. Passionate about using technology to enhance efficiency, reliability, and security of software systems, I'm eager to contribute to building a "paved road" that excellent engineering teams can safely take to the moon and back.
+I'm a London-based DevOps Manager and Platform Engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Over the past 7 years in the software industry, including 5 in a dedicated DevOps role — I have honed my skills in automation and optimization of the software development lifecycle through CI/CD using tools such as Terraform and Azure DevOps. I specialize in designing, implementing, and maintaining infrastructure on cloud platforms like Azure and AWS, with a particular focus on cloud native solutions like serverless functions, Docker, and Kubernetes. Passionate about using technology to enhance efficiency, reliability, and security of software systems.
 
 ---
 
@@ -18,6 +18,7 @@ I'm a London-based DevOps Manager and Platform Engineer with a proven track reco
 ### DevOps Manager
 #### Lumanity _(Acquired Innovative Edge)_
 *April 2021 - Present*
+
 -  Used Azure, AWS, and CloudFlare to securely and reliably provision and deploy new applications within days.
 - Mentored a skilled team of Platform and Systems Engineers
 - Used Infrastructure as Code through Terraform to manage cloud infrastructure, reducing the time to deploy updates and increasing the uptime & reliability of the system
@@ -69,17 +70,17 @@ I'm a London-based DevOps Manager and Platform Engineer with a proven track reco
 
 {{< columns cols="3" >}}
   {{< column >}}
-    AWS<br>
     Azure DevOps <br>
     Azure AD/Entra ID <br>
     GitHub <br>
     Cloudflare <br>
     <br>
     <b>Azure</b> <br>
-    - Kubernetes <br>
-    - Blob storage <br>
-    - Functions <br>
-    - Logic apps<br>
+    Kubernetes Service <br>
+    Blob storage <br>
+    Functions <br>
+    Logic apps<br>
+    Networking <br>    
   {{< /column >}}
 
   {{< column >}}
@@ -90,6 +91,13 @@ I'm a London-based DevOps Manager and Platform Engineer with a proven track reco
     Kubernetes <br>
     Helm <br>
     C# <br>
+    <br>
+    <b>AWS</b><br>
+    EC2 <br>
+    Route 53 <br>
+    S3 <br>
+
+
   {{< /column >}}
 
   {{< column >}}
