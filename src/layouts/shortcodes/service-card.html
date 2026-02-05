@@ -1,0 +1,15 @@
+<div class="col-lg-6">
+  <div class="card h-100 shadow-sm">
+    <div class="card-body">
+      <h4 class="card-title">{{ .Get "title" }}</h4>
+      <p class="badge mb-3">{{ .Get "badge" }}</p>
+      <p class="card-text">{{ .Get "description" | markdownify }}</p>
+      <h6 class="mt-4">Scope Highlights:</h6>
+      <ul class="card-text">
+        {{ .Inner | markdownify}}
+      </ul>
+      <p class="mt-4"><strong>{{ .Get "price" }}</strong></p>
+      <a href="{{ .Get "link" | default "/contact" }}" class="btn mt-2">{{ .Get "button" | default "Get Started" }}</a>
+    </div>
+  </div>
+</div>

@@ -16,6 +16,13 @@ title = "About Me"
 url = "/about"
 weight = 1
 
+[[Menus.main]]
+identifier = "services"
+name = "Services"
+title = "Consulting Services"
+url = "/services"
+weight = 2
+
 [params]
 title = 'Shivan Malde | DevOps Manager and Platform Engineer'
 description = 'My Website'

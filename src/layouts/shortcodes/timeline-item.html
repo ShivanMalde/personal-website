@@ -1,0 +1,13 @@
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="row align-items-center">
+      <div class="col-md-2 border-end border-4 border-primary d-flex align-items-center justify-content-center pe-3">
+        <span class="fw-bold">{{ .Get "period" }}</span>
+      </div>
+      <div class="col ps-md-4">
+        <h5 class="card-title">{{ .Get "title" }}</h5>
+        <p class="card-text">{{ .Get "description" | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</div>

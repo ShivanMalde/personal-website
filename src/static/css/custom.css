@@ -1,3 +1,9 @@
+/* Global font settings */
+body {
+  font-family: "Alata", sans-serif !important;
+}
+
+
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -18,4 +24,55 @@
 #single .page-content .columns .column ul {
   margin-left: 0;
   padding-left: 0em; /* Adjust as needed */
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--text-secondary-color);
+  font-family: var(--primary-font);
+}
+
+.card .card-body {
+  background-color: var(--secondary-color);
+}
+
+.card h4.card-title {
+  color: var(--text-color);
+}
+
+.card .card-text {
+  color: var(--text-color);
+}
+
+.card .badge {
+  color: var(--text-primary-color);
+  border: 1px solid var(--text-color)
+}
+
+.card ul {
+  color: var(--text-color);
+}
+
+.card a.btn {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color)
+}
+
+/* Timeline cards */
+.card.border-start {
+  border-left: 4px solid var(--primary-color) !important;
+}
+
+.border-end {
+  border-right: 4px solid var(--primary-color) !important;
+}
+
+.card h5.card-title {
+  color: var(--text-color) !important;
+  font-weight: 600;
+}
+
+.fw-bold {
+  color: var(--primary-color) !important;
 }
