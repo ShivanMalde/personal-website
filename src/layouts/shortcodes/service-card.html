@@ -1,8 +1,14 @@
 <div class="col-lg-6">
   <div class="card h-100 shadow-sm">
     <div class="card-body">
-      <h4 class="card-title">{{ .Get "title" }}</h4>
-      <p class="badge mb-3">{{ .Get "badge" }}</p>
+      <div class="row align-items-center mb-3">
+        <div class="col">
+          <h4 class="card-title mb-0">{{ .Get "title" }}</h4>
+        </div>
+        <div class="col-auto">
+          <span class="badge">{{ .Get "badge" }}</span>
+        </div>
+      </div>
       <p class="card-text">{{ .Get "description" | markdownify }}</p>
       <h6 class="mt-4">Scope Highlights:</h6>
       <ul class="card-text">

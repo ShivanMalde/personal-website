@@ -1,8 +1,16 @@
 /* Global font settings */
 body {
-  font-family: "Alata", sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
+.page-content h1,
+.page-content h4 {
+  text-align: center;
+}
+
+body #single .page-content h4 {
+  color: var(--text-color) !important;
+}
 
 .columns {
   display: flex;
