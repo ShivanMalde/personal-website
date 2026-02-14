@@ -33,10 +33,34 @@ staticPath = ""
 
 custom_css = ["css/custom.css"]
 
+  [params.color]
+  primaryColor = "#6366f1"
+  secondaryColor = "#f8fafc"
+  textColor = "#1e293b"
+  secondaryTextColor = "#64748b"
+  textLinkColor = "#6366f1"
+  backgroundColor = "#ffffff"
+  secondaryBackgroundColor = "#f1f5f9"
+
+  [params.color.darkmode]
+  primaryColor = "#818cf8"
+  secondaryColor = "#1e293b"
+  textColor = "#f1f5f9"
+  secondaryTextColor = "#94a3b8"
+  textLinkColor = "#818cf8"
+  backgroundColor = "#0f172a"
+  secondaryBackgroundColor = "#1e293b"
+
+  [params.font]
+  fontSize = "1rem"
+  fontWeight = "400"
+  lineHeight = "1.7"
+  textAlign = "left"
+
 
   [params.navbar]
   align = "ms-auto"
-  brandName = "Hugo Profile"
+  brandName = "Shivan Malde"
   disableSearch = false
   enableSeparator = false
 
@@ -57,7 +81,7 @@ custom_css = ["css/custom.css"]
   intro = "Hi, my name is"
   title = "Shivan."
   subtitle = "DevOps & Platform Engineer"
-  content = "London-based DevOps manager and platform engineer with a proven track record of delivering scalable and reliable infrastructure solutions."
+  content = "London-based DevOps manager and platform engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD."
   image = "img/pro_portrait.jpg"
 
     [params.hero.bottomImage]

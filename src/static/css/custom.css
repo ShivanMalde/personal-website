@@ -1,6 +1,24 @@
+/* ========================================
+   GLOBAL ENHANCEMENTS
+   ======================================== */
+
 /* Global font settings */
 body {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Lora", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Better heading font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alata", sans-serif !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Improved content spacing */
+.page-content {
+  line-height: 1.8;
 }
 
 .page-content h1,
@@ -12,6 +30,7 @@ body #single .page-content h4 {
   color: var(--text-color) !important;
 }
 
+/* Columns layout */
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -31,13 +50,28 @@ body #single .page-content h4 {
 
 #single .page-content .columns .column ul {
   margin-left: 0;
-  padding-left: 0em; /* Adjust as needed */
+  padding-left: 0em;
 }
+
+/* ========================================
+   ENHANCED CARD STYLES
+   ======================================== */
 
 .card {
   background-color: var(--secondary-color);
   border: 2px solid var(--text-secondary-color);
   font-family: var(--primary-font);
+  border-radius: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: var(--primary-color);
 }
 
 .card .card-body {
@@ -46,15 +80,26 @@ body #single .page-content h4 {
 
 .card h4.card-title {
   color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card h5.card-title {
+  color: var(--text-color) !important;
+  font-weight: 600;
 }
 
 .card .card-text {
   color: var(--text-color);
+  opacity: 0.9;
 }
 
 .card .badge {
   color: var(--text-primary-color);
-  border: 1px solid var(--text-color)
+  border: 1px solid var(--text-color);
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .card ul {
@@ -64,7 +109,17 @@ body #single .page-content h4 {
 .card a.btn {
   background-color: var(--secondary-color);
   color: var(--text-color);
-  border: 1px solid var(--primary-color)
+  border: 2px solid var(--primary-color);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.75rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.card a.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color) !important;
+  transform: translateY(-1px);
 }
 
 /* Timeline cards */
@@ -76,11 +131,565 @@ body #single .page-content h4 {
   border-right: 4px solid var(--primary-color) !important;
 }
 
-.card h5.card-title {
-  color: var(--text-color) !important;
+.fw-bold {
+  color: var(--primary-color) !important;
+}
+
+/* ========================================
+   ENHANCED BUTTON STYLES
+   ======================================== */
+
+.btn {
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.75rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);
+  background-color: var(--primary-color);
+  color: var(--secondary-color) !important;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* ========================================
+   HERO SECTION ENHANCEMENTS
+   ======================================== */
+
+#hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 80% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+#hero .content {
+  position: relative;
+  z-index: 1;
+}
+
+#hero h1 {
+  font-size: clamp(40px, 8vw, 80px);
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+#hero h2 {
+  font-size: clamp(40px, 8vw, 60px);
+  opacity: 0.5;
   font-weight: 600;
+  line-height: 1.1;
+}
+
+#hero .subtitle {
+  font-size: clamp(14px, 5vw, 16px);
+  opacity: 0.7;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#hero p {
+  max-width: 640px;
+  opacity: 0.85;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+#hero .image img {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 0;
+  border: 3px solid var(--secondary-color);
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+#hero .image img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(99, 102, 241, 0.25);
+}
+
+#hero a.btn.social-icon {
+  color: var(--primary-color) !important;
+  line-height: 0%;
+  border-radius: 50%;
+  margin-top: 50px;
+  padding: 0.875rem;
+  border: 2px solid var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+#hero a.btn.social-icon:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);
+}
+
+/* ========================================
+   NAVIGATION ENHANCEMENTS
+   ======================================== */
+
+header .navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(var(--background-color), 0.9);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+}
+
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+
+header .nav-link {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  color: var(--text-color) !important;
+  transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* ========================================
+   SECTION SPACING
+   ======================================== */
+
+section {
+  padding: 5rem 0;
+}
+
+section:first-of-type {
+  padding-top: 3rem;
+}
+
+section:last-of-type {
+  padding-bottom: 3rem;
+}
+
+/* ========================================
+   ENHANCED LINK STYLES
+   ======================================== */
+
+a {
+  color: var(--text-link-color) !important;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Underline animation for content links */
+.page-content a {
+  display: inline-block;
+  position: relative;
+}
+
+.page-content a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0.5;
+}
+
+.page-content a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* ========================================
+   IMPROVED LISTS
+   ======================================== */
+
+.page-content ul,
+.page-content ol {
+  padding-left: 1.5rem;
+}
+
+.page-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Custom bullet points */
+.page-content ul li::marker {
+  color: var(--primary-color);
+}
+
+/* ========================================
+   BLOCKQUOTE ENHANCEMENTS
+   ======================================== */
+
+.page-content blockquote {
+  border-left: 4px solid var(--primary-color) !important;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 1rem 1rem 0;
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-background-color) 100%);
+  font-style: italic;
+}
+
+/* ========================================
+   RESPONSIVE IMPROVEMENTS
+   ======================================== */
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #hero h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ========================================
+   SCROLLBAR STYLING
+   ======================================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary-color);
+}
+
+/* ========================================
+   SELECTION STYLING
+   ======================================== */
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+::-moz-selection {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* ========================================
+   ACCESSIBILITY IMPROVEMENTS
+   ======================================== */
+
+:focus-visible {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Skip link */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1rem;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.skip-to-main:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+/* ========================================
+   SMOOTH SCROLLING
+   ======================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ========================================
+   LOADING ANIMATION
+   ======================================== */
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.loading {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right,
+    var(--secondary-color) 4%,
+    var(--secondary-background-color) 25%,
+    var(--secondary-color) 36%);
+  background-size: 1000px 100%;
+}
+
+/* ========================================
+   CONTACT SECTION
+   ======================================== */
+
+#contact {
+  position: relative;
+}
+
+#contact .form-control {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: 2px solid var(--text-secondary-color);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+#contact .form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  background-color: var(--background-color);
+}
+
+#contact .form-control::placeholder {
+  color: var(--text-secondary-color);
+  opacity: 0.7;
+}
+
+#contact label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+/* ========================================
+   EXPERIENCE & EDUCATION SECTIONS
+   ======================================== */
+
+#experience .experience-container {
+  border: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+#experience .nav-item .nav-link {
+  border-bottom-width: 3px;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+}
+
+#education .card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#education .card:hover {
+  transform: translateY(-4px);
+}
+
+/* ========================================
+   ACHIEVEMENTS SECTION
+   ======================================== */
+
+#achievements .card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#achievements .card:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+#achievements img {
+  transition: transform 0.3s ease;
+}
+
+#achievements .card:hover img {
+  transform: scale(1.05);
+}
+
+/* ========================================
+   FOOTER ENHANCEMENTS
+   ======================================== */
+
+footer {
+  margin-top: 4rem;
+}
+
+footer .card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+footer .card:hover {
+  transform: translateY(-2px);
+}
+
+footer a h5 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+/* ========================================
+   BADGE STYLES
+   ======================================== */
+
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+/* ========================================
+   ADDITIONAL UTILITIES
+   ======================================== */
+
+.text-primary {
+  color: var(--primary-color) !important;
 }
 
 .fw-bold {
-  color: var(--primary-color) !important;
+  font-weight: 700 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+/* ========================================
+   IMPROVED VISUAL HIERARCHY
+   ======================================== */
+
+.page-content h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page-content h2 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  margin-top: 1.75rem;
+  margin-bottom: 0.875rem;
+}
+
+.page-content h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.page-content h4 {
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  margin-top: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+/* ========================================
+   IMPROVED RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 992px) {
+  .cols-3 .column {
+    flex: 1 1 50%;
+  }
+
+  .cols-4 .column {
+    flex: 1 1 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .cols-2 .column,
+  .cols-3 .column,
+  .cols-4 .column {
+    flex: 1 1 100%;
+  }
+
+  #hero .image {
+    margin-top: 2rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
 }
