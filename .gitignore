@@ -38,4 +38,5 @@ src/hugo.darwin
 src/hugo.linux
 
 # Temporary lock file while building
+.hugo_build.lock
 src/.hugo_build.lock

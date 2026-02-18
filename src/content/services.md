@@ -13,45 +13,66 @@ Specialized in **Kubernetes**, **Infrastructure as Code**, and **Enterprise-scal
 
 ---
 
-## Services
-
 {{< alert icon="triangle-exclamation" cardColor="#f0f9ff" iconColor="#6366f1" >}}
 No billable implementation without discovery. Every engagement starts with a thorough technical assessment.
 {{< /alert >}}
 
 ---
 
-{{< tabs >}}
+## Service Offerings
 
-{{< tab label="CI/CD" icon="git-alt" >}}
 ### CI/CD Pipeline Architecture
 
-{{< badge >}}From £8,000{{< /badge >}} {{< badge >}}Discovery Phase Included{{< /badge >}}
+{{< alert icon="git-alt" cardColor="#f0fdf4" iconColor="#22c55e" >}}
+{{< badge >}}From £8,000{{< /badge >}} {{< badge color="#6366f1" >}}Discovery Phase Included{{< /badge >}}
 
-Automate your path to production. I design pipelines that integrate security, testing, and deployment logic into a single source of truth.
+**Automate your path to production**
 
+I design pipelines that integrate security, testing, and deployment logic into a single source of truth.
+
+**Key Deliverables:**
 - SDLC Audit & Branching Strategy
 - Automated Security Scanning (Snyk/Trivy)
 - Production Promotion & Rollback Logic
+- Self-service deployment capabilities
 
-{{< button href="/contact" >}}Enquire Now{{< /button >}}
-{{< /tab >}}
+**Ideal For:** Teams shipping frequently who need confidence in their releases
+{{< /alert >}}
 
-{{< tab label="IaC" icon="server" >}}
 ### IaC Migration & Hardening
 
-{{< badge >}}From £12,000{{< /badge >}} {{< badge >}}Discovery Phase Included{{< /badge >}}
+{{< alert icon="server" cardColor="#fefce8" iconColor="#eab308" >}}
+{{< badge >}}From £12,000{{< /badge >}} {{< badge color="#6366f1" >}}Discovery Phase Included{{< /badge >}}
 
-Eliminate manual console configuration. I migrate your legacy cloud footprint to versioned, modular Terraform or OpenTofu code.
+**Eliminate manual console configuration**
 
+I migrate your legacy cloud footprint to versioned, modular Terraform or OpenTofu code.
+
+**Key Deliverables:**
 - Cloud Asset Inventory & Drift Analysis
 - Modular Multi-Environment Design
 - Automated State Management & Recovery
+- Policy-as-Code guardrails
 
-{{< button href="/contact" >}}Enquire Now{{< /button >}}
-{{< /tab >}}
+**Ideal For:** Organizations with manual infrastructure processes or compliance requirements
+{{< /alert >}}
 
-{{< /tabs >}}
+---
+
+## What You Get
+
+{{< timeline >}}
+
+{{< timelineItem icon="check-circle" header="Deliverables" subheader="Every project includes" >}}
+- **Technical roadmap document** with phased implementation plan
+- **Production-ready IaC code** with modules and documentation
+- **CI/CD pipeline configuration** with testing and security scans
+- **Comprehensive documentation** and runbooks for your team
+- **Team training session** to ensure knowledge transfer
+- **Post-handoff support** for a smooth transition
+{{< /timelineItem >}}
+
+{{< /timeline >}}
 
 ---
 
@@ -83,7 +104,13 @@ This phase ensures:
 
 ---
 
+## Frequently Asked Questions
+
 {{< accordion mode="collapse" >}}
+
+{{< accordionItem title="How long does a typical engagement take?" icon="clock" >}}
+Most projects complete within 4-8 weeks, depending on scope and complexity. The discovery phase typically takes 1 week, followed by 3-7 weeks for implementation.
+{{< /accordionItem >}}
 
 {{< accordionItem title="What happens after implementation?" icon="question-circle" >}}
 Post-implementation support includes documentation, team training, and optional ongoing maintenance to ensure your team is fully self-sufficient.
@@ -101,16 +128,19 @@ From startups to enterprise — I've helped organizations ranging from fast-grow
 Absolutely. The discovery phase is designed to assess what you have and recommend either evolution or strategic migration paths.
 {{< /accordionItem >}}
 
+{{< accordionItem title="What's included in the discovery phase?" icon="search" >}}
+The discovery phase includes a comprehensive audit of your current infrastructure, gap analysis, risk identification, and a detailed technical roadmap with recommendations.
+{{< /accordionItem >}}
+
 {{< /accordion >}}
 
 ---
 
 ## Ready to Modernize?
 
-{{< alert icon="rocket" cardColor="#dcfce7" iconColor="#ffffff" textColor="#ffffff" >}}
+{{< alert icon="rocket" cardColor="#ede9fe" iconColor="#8b5cf6" >}}
 Let's discuss your infrastructure needs and create a roadmap to production-ready systems.
 {{< /alert >}}
 
-{{< button href="/contact" target="_self" >}}
-{{< icon "email" >}} Get in Touch
-{{< /button >}}
+{{< button href="/contact" target="_self" icon="email" >}} Book a Discovery Call{{< /button >}}
+{{< button href="/about" target="_self" icon="user" >}} Learn More About Me{{< /button >}}

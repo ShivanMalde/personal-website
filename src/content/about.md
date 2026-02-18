@@ -4,11 +4,32 @@ date = 2025-02-23T23:42:27Z
 draft = false
 +++
 
+{{< figure
+    src="pro_portrait.jpg"
+    alt="Shivan Malde"
+    caption="DevOps Manager & Platform Engineer"
+    captionPosition="bottom"
+    class="text-center"
+>}}
+
+---
+
 {{< lead >}}
 London-based DevOps Manager and Platform Engineer with a proven track record of delivering scalable and reliable infrastructure solutions.
 {{< /lead >}}
 
 Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD. Over 7 years in software industry, including 5 years in dedicated DevOps — honing skills in automation and optimization of the software development lifecycle.
+
+---
+
+## Key Achievement
+
+{{< alert icon="certificate" cardColor="#f0fdf4" iconColor="#22c55e" >}}
+**ISO 27001 Certification**
+Played a key role in achieving ISO 27001 certification, including coordinating application security testing and standardizing code review practices across the organization.
+{{< /alert >}}
+
+{{< badge color="#22c55e" >}} ICAgile Certified Professional{{< /badge >}}
 
 ---
 
@@ -55,9 +76,52 @@ Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD. O
 {{< timeline >}}
 
 {{< timelineItem icon="book" header="BSc (Hons) in Mathematics & Physics" badge="2013 - 2016" subheader="Royal Holloway, University of London" >}}
+Foundation in analytical thinking and problem-solving that translates directly to complex infrastructure architecture and system optimization challenges.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
+
+---
+
+## Core Competencies
+
+### Leadership & Management
+
+{{< keywordList >}}
+{{< keyword icon="users-gear" >}} Team Leadership{{< /keyword >}}
+{{< keyword icon="people-group" >}} Cross-functional Communication{{< /keyword >}}
+{{< keyword icon="certificate" >}} Agile Methodologies{{< /keyword >}}
+{{< keyword icon="graduation-cap" >}} Mentorship{{< /keyword >}}
+{{< /keywordList >}}
+
+### Cloud & Infrastructure
+
+{{< keywordList >}}
+{{< keyword icon="microsoft" >}} Azure{{< /keyword >}}
+{{< keyword icon="aws" >}} AWS{{< /keyword >}}
+{{< keyword icon="server" >}} Kubernetes{{< /keyword >}}
+{{< keyword icon="code-branch" >}} Terraform{{< /keyword >}}
+{{< keyword icon="cloudflare" >}} CloudFlare{{< /keyword >}}
+{{< keyword icon="docker" >}} Docker{{< /keyword >}}
+{{< /keywordList >}}
+
+### Development & Automation
+
+{{< keywordList >}}
+{{< keyword icon="github" >}} CI/CD{{< /keyword >}}
+{{< keyword icon="code" >}} C#{{< /keyword >}}
+{{< keyword icon="terminal" >}} PowerShell{{< /keyword >}}
+{{< keyword icon="cogs" >}} Process Automation{{< /keyword >}}
+{{< keyword icon="database" >}} SQL{{< /keyword >}}
+{{< /keywordList >}}
+
+### Certifications & Compliance
+
+{{< keywordList >}}
+{{< keyword icon="shield-check" >}} Security & Compliance{{< /keyword >}}
+{{< keyword icon="certificate" >}} ICAgile Certified{{< /keyword >}}
+{{< keyword icon="lock" >}} ISO 27001{{< /keyword >}}
+{{< /keywordList >}}
 
 ---
 
@@ -99,18 +163,3 @@ Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD. O
 {{< /tab >}}
 
 {{< /tabs >}}
-
----
-
-## Key Skills
-
-{{< keyword icon="certificate" >}} ICAgile Certified Professional {{< /keyword >}}
-{{< keyword icon="users" >}} Cross-functional communication & collaboration {{< /keyword >}}
-{{< keyword icon="cloud" >}} Cloud technologies {{< /keyword >}}
-{{< keyword icon="graduation-cap" >}} Continuous learning {{< /keyword >}}
-{{< keyword icon="github" >}} DevOps tooling & CI/CD {{< /keyword >}}
-{{< keyword icon="people-group" >}} Team leadership {{< /keyword >}}
-{{< keyword icon="code" >}} Software development & testing {{< /keyword >}}
-{{< keyword icon="shield-check" >}} Security & compliance {{< /keyword >}}
-{{< keyword icon="clock" >}} Time management {{< /keyword >}}
-{{< keyword icon="cogs" >}} Process automation {{< /keyword >}}
