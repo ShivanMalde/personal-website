@@ -2,17 +2,8 @@
 title = "About"
 date = 2025-02-23T23:42:27Z
 draft = false
+layout = "simple"
 +++
-
-{{< figure
-    src="pro_portrait.jpg"
-    alt="Shivan Malde"
-    caption="DevOps Manager & Platform Engineer"
-    captionPosition="bottom"
-    class="text-center"
->}}
-
----
 
 {{< lead >}}
 London-based DevOps Manager and Platform Engineer with a proven track record of delivering scalable and reliable infrastructure solutions.

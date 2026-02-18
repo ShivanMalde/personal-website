@@ -3,6 +3,7 @@ title = "Services"
 date = 2025-02-05T20:00:00Z
 description = "DevOps Consulting Services"
 draft = false
+layout = "simple"
 +++
 
 {{< lead >}}
@@ -142,5 +143,6 @@ The discovery phase includes a comprehensive audit of your current infrastructur
 Let's discuss your infrastructure needs and create a roadmap to production-ready systems.
 {{< /alert >}}
 
+{{< button href="/intake" target="_self" icon="clipboard-list" >}} Start Intake Form{{< /button >}}
 {{< button href="/contact" target="_self" icon="email" >}} Book a Discovery Call{{< /button >}}
 {{< button href="/about" target="_self" icon="user" >}} Learn More About Me{{< /button >}}

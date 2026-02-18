@@ -11,6 +11,11 @@
   weight = 20
 
 [[main]]
+  name = "Intake"
+  pageRef = "intake"
+  weight = 25
+
+[[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/ShivanMalde"
@@ -19,5 +24,5 @@
   [[main]]
   identifier = "linkedin"
   pre = "linkedin"
-  url = "https://github.com/ShivanMalde"
+  url = "https://linkedin.com/in/shivanmalde"
   weight = 200

@@ -1,0 +1,17 @@
+{{- $src := .Get "src" | default "" -}}
+{{- $class := .Get "class" | default "nextcloud-form-embed" -}}
+
+{{- if not $src -}}
+  {{- errorf "nextcloud-form shortcode: 'src' parameter is required: %s" .Position -}}
+{{- end -}}
+
+<div class="nextcloud-form-container">
+  <iframe
+    src="{{ $src }}"
+    class="{{ $class }}"
+    width="100%"
+    frameborder="0"
+    scrolling="yes"
+    title="DevOps Intake Form">
+  </iframe>
+</div>

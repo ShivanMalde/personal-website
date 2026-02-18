@@ -1,0 +1,35 @@
+/* Nextcloud Form Embed Styling */
+.nextcloud-form-embed {
+  width: 100%;
+  min-height: 85vh; /* 85% of viewport height */
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.nextcloud-form-embed:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.nextcloud-form-container {
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .nextcloud-form-embed {
+    border-color: #374151;
+  }
+}
+
+/* Mobile: make it even taller */
+@media (max-width: 767px) {
+  .nextcloud-form-embed {
+    min-height: 100vh; /* Full screen on mobile */
+  }
+  .nextcloud-form-container {
+    margin: 0;
+  }
+}

@@ -9,16 +9,6 @@ Hi, my name is Shivan.
 
 ---
 
-{{< figure
-    src="pro_portrait.jpg"
-    alt="Shivan Malde - DevOps Manager & Platform Engineer"
-    caption="DevOps Manager & Platform Engineer"
-    captionPosition="bottom"
-    class="text-center"
->}}
-
----
-
 {{< lead >}}
 London-based DevOps manager and platform engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD.
 {{< /lead >}}
@@ -102,6 +92,7 @@ Mentor engineering teams, foster DevOps culture, and drive organizational transf
 Ready to modernize your infrastructure? Let's discuss your project and create a roadmap to production-ready systems.
 {{< /alert >}}
 
+{{< button href="/intake" target="_self" icon="clipboard-list" >}} Start Intake Form{{< /button >}}
 {{< button href="/contact" target="_self" >}}
 {{< icon "email" >}} Get in Touch
 {{< /button >}}
