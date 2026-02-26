@@ -9,7 +9,7 @@ layout = "simple"
 Tell me about your DevOps challenges and let's see if we're a good fit to work together.
 {{< /lead >}}
 
-{{< alert icon="triangle-exclamation" cardColor="#f0f9ff" iconColor="#6366f1" >}}
+{{< alert icon="triangle-exclamation" >}}
 This intake form helps me understand your infrastructure challenges and determine if I can help. Most responses are received within 24-48 hours.
 {{< /alert >}}
 
@@ -20,9 +20,3 @@ This intake form helps me understand your infrastructure challenges and determin
 {{< nextcloud-form
   src="https://nx83416.your-storageshare.de/apps/forms/embed/7tbyqzgXTGRQGJDdxZC89eaJ"
 >}}
-
----
-
-{{< alert icon="lightbulb" cardColor="#fefce8" iconColor="#eab308" >}}
-**Prefer email?** If you'd rather discuss your project directly, feel free to <a href="/contact">get in touch</a>.
-{{< /alert >}}

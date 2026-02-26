@@ -14,7 +14,7 @@ Specialized in **Kubernetes**, **Infrastructure as Code**, and **Enterprise-scal
 
 ---
 
-{{< alert icon="triangle-exclamation" cardColor="#f0f9ff" iconColor="#6366f1" >}}
+{{< alert icon="triangle-exclamation" >}}
 No billable implementation without discovery. Every engagement starts with a thorough technical assessment.
 {{< /alert >}}
 
@@ -24,10 +24,20 @@ No billable implementation without discovery. Every engagement starts with a tho
 
 ### CI/CD Pipeline Architecture
 
-{{< alert icon="git-alt" cardColor="#f0fdf4" iconColor="#22c55e" >}}
-{{< badge >}}From £8,000{{< /badge >}} {{< badge color="#6366f1" >}}Discovery Phase Included{{< /badge >}}
+{{< alert icon="git-alt" >}}
 
+{{< columns >}}
+{{< column >}}
+  \
 **Automate your path to production**
+
+{{< /column >}}
+{{< column >}}
+  \
+**From £8,000** \
+**Discovery Phase Included**
+{{< /column >}}
+{{< /columns >}}
 
 I design pipelines that integrate security, testing, and deployment logic into a single source of truth.
 
@@ -40,10 +50,19 @@ I design pipelines that integrate security, testing, and deployment logic into a
 **Ideal For:** Teams shipping frequently who need confidence in their releases
 {{< /alert >}}
 
-### IaC Migration & Hardening
+{{< alert >}}
+{{< columns >}}
+{{< column >}}
 
-{{< alert icon="server" cardColor="#fefce8" iconColor="#eab308" >}}
-{{< badge >}}From £12,000{{< /badge >}} {{< badge color="#6366f1" >}}Discovery Phase Included{{< /badge >}}
+**IaC Migration & Hardening**
+
+{{< /column >}}
+{{< column >}}
+  \
+**From £12,000** \
+**Discovery Phase Included**
+{{< /column >}}
+{{< /columns >}}
 
 **Eliminate manual console configuration**
 
@@ -139,10 +158,9 @@ The discovery phase includes a comprehensive audit of your current infrastructur
 
 ## Ready to Modernize?
 
-{{< alert icon="rocket" cardColor="#ede9fe" iconColor="#8b5cf6" >}}
+{{< alert icon="rocket" >}}
 Let's discuss your infrastructure needs and create a roadmap to production-ready systems.
 {{< /alert >}}
 
+  \
 {{< button href="/intake" target="_self" icon="clipboard-list" >}} Start Intake Form{{< /button >}}
-{{< button href="/contact" target="_self" icon="email" >}} Book a Discovery Call{{< /button >}}
-{{< button href="/about" target="_self" icon="user" >}} Learn More About Me{{< /button >}}

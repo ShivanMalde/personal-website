@@ -15,12 +15,15 @@ Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD. O
 
 ## Key Achievement
 
-{{< alert icon="certificate" cardColor="#f0fdf4" iconColor="#22c55e" >}}
-**ISO 27001 Certification**
-Played a key role in achieving ISO 27001 certification, including coordinating application security testing and standardizing code review practices across the organization.
-{{< /alert >}}
+{{< columns >}}
+{{< column >}}
+Achieved ISO 27001 and ISO 42001 certifications
 
-{{< badge color="#22c55e" >}} ICAgile Certified Professional{{< /badge >}}
+{{< /column >}}
+{{< column >}}
+test
+{{< /column >}}
+{{< /columns >}}
 
 ---
 
@@ -28,7 +31,7 @@ Played a key role in achieving ISO 27001 certification, including coordinating a
 
 {{< timeline >}}
 
-{{< timelineItem icon="briefcase" header="DevOps Manager" badge="Apr 2021 - Present" subheader="Lumanity (Acquired Innovative Edge)" >}}
+{{< timelineItem icon="code" header="DevOps Manager" badge="Apr 2021 - Present" subheader="Lumanity (Acquired Innovative Edge)" >}}
 - Used Azure, AWS, and CloudFlare to securely and reliably provision and deploy new applications within days
 - Mentored a skilled team of Platform and Systems Engineers
 - Used Infrastructure as Code through Terraform to manage cloud infrastructure, reducing deployment time and increasing system uptime & reliability
@@ -43,7 +46,7 @@ Played a key role in achieving ISO 27001 certification, including coordinating a
 - Strengthened organisational security by implementing Azure Entra ID features including MFA, conditional access, SAML SSO, Self Service Password Reset, and PIM
 {{< /timelineItem >}}
 
-{{< timelineItem icon="terminal" header="DevOps Engineer" badge="Aug 2018 - May 2020" subheader="IRIS Software Group" >}}
+{{< timelineItem icon="code" header="DevOps Engineer" badge="Aug 2018 - May 2020" subheader="IRIS Software Group" >}}
 - Became a crucial part of a Release Engineering team to develop CI/CD tooling
 - Gained experience throughout the software development life cycle using Git, Visual Studio, Azure DevOps, and unit testing
 - Employed PowerShell and Ansible to automate business processes and complex deployment, reducing human error
@@ -51,7 +54,7 @@ Played a key role in achieving ISO 27001 certification, including coordinating a
 - Worked in an Agile methodology, collaborating with scrum master and stakeholders
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" >}}
+{{< timelineItem icon="code" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" >}}
 - Built great relationships working in an onsite environment, improving the business relationship with the client
 - Participated in all parts of the software development lifecycle from design to implementation and testing
 - Employed code reviews, automated testing, and version control to ensure high code standards
@@ -66,7 +69,7 @@ Played a key role in achieving ISO 27001 certification, including coordinating a
 
 {{< timeline >}}
 
-{{< timelineItem icon="book" header="BSc (Hons) in Mathematics & Physics" badge="2013 - 2016" subheader="Royal Holloway, University of London" >}}
+{{< timelineItem icon="graduation-cap" header="BSc (Hons) in Mathematics & Physics" badge="2013 - 2016" subheader="Royal Holloway, University of London" >}}
 Foundation in analytical thinking and problem-solving that translates directly to complex infrastructure architecture and system optimization challenges.
 {{< /timelineItem >}}
 
@@ -120,7 +123,7 @@ Foundation in analytical thinking and problem-solving that translates directly t
 
 {{< tabs >}}
 
-{{< tab label="Tools" icon="wrench" >}}
+{{< tab label="Tools" icon="language" >}}
 **Platforms & Tools**
 - Azure DevOps
 - Azure AD/Entra ID
@@ -147,7 +150,7 @@ Foundation in analytical thinking and problem-solving that translates directly t
 - Networking
 {{< /tab >}}
 
-{{< tab label="AWS" icon="aws" >}}
+{{< tab label="AWS" icon="amazon" >}}
 - EC2
 - Route 53
 - S3

@@ -1,7 +1,7 @@
 /* Nextcloud Form Embed Styling */
 .nextcloud-form-embed {
   width: 100%;
-  min-height: 85vh; /* 85% of viewport height */
+  height: 2500px; /* Generous height to accommodate full form */
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   background: white;
@@ -27,7 +27,7 @@
 /* Mobile: make it even taller */
 @media (max-width: 767px) {
   .nextcloud-form-embed {
-    min-height: 100vh; /* Full screen on mobile */
+    height: 1400px; /* Taller on mobile for smaller screens */
   }
   .nextcloud-form-container {
     margin: 0;
