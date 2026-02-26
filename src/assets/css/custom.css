@@ -154,33 +154,31 @@
 }
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .service-card {
-    background: #1e293b;
-    border-color: #334155;
-  }
+html.dark .service-card {
+  background: #1e293b;
+  border-color: #334155;
+}
 
-  .service-card-title {
-    color: #f1f5f9;
-  }
+html.dark .service-card-title {
+  color: #f1f5f9;
+}
 
-  .service-card-subtitle {
-    color: #94a3b8;
-  }
+html.dark .service-card-subtitle {
+  color: #94a3b8;
+}
 
-  .service-card-price {
-    color: #60a5fa;
-  }
+html.dark .service-card-price {
+  color: #60a5fa;
+}
 
-  .service-card-body {
-    color: #cbd5e1;
-  }
+html.dark .service-card-body {
+  color: #cbd5e1;
+}
 
-  .service-card-body strong {
-    color: #f1f5f9;
-  }
+html.dark .service-card-body strong {
+  color: #f1f5f9;
+}
 
-  .service-card:hover {
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
-  }
+html.dark .service-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
 }
