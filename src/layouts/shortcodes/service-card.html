@@ -1,0 +1,27 @@
+{{ $title := .Get "title" }}
+{{ $subtitle := .Get "subtitle" | default "" }}
+{{ $price := .Get "price" | default "" }}
+{{ $badge := .Get "badge" | default "" }}
+
+<div class="service-card">
+  {{ if $badge }}
+  <div class="service-card-badge">
+    <span class="service-card-badge-text">{{ $badge }}</span>
+  </div>
+  {{ end }}
+
+  <div class="service-card-content">
+    <h3 class="service-card-title">{{ $title }}</h3>
+    {{ if $subtitle }}
+    <p class="service-card-subtitle">{{ $subtitle }}</p>
+    {{ end }}
+
+    {{ if $price }}
+    <div class="service-card-price">{{ $price }}</div>
+    {{ end }}
+
+    <div class="service-card-body">
+      {{ .Inner }}
+    </div>
+  </div>
+</div>

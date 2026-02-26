@@ -22,23 +22,14 @@ No billable implementation without discovery. Every engagement starts with a tho
 
 ## Service Offerings
 
-### CI/CD Pipeline Architecture
+{{< services-grid >}}
 
-{{< alert icon="git-alt" >}}
-
-{{< columns >}}
-{{< column >}}
-  \
-**Automate your path to production**
-
-{{< /column >}}
-{{< column >}}
-  \
-**From £8,000** \
-**Discovery Phase Included**
-{{< /column >}}
-{{< /columns >}}
-
+{{< service-card
+  title="CI/CD Pipeline Architecture"
+  subtitle="Automate your path to production"
+  price="From £8,000"
+  badge="Discovery Phase Included"
+>}}
 I design pipelines that integrate security, testing, and deployment logic into a single source of truth.
 
 **Key Deliverables:**
@@ -48,24 +39,14 @@ I design pipelines that integrate security, testing, and deployment logic into a
 - Self-service deployment capabilities
 
 **Ideal For:** Teams shipping frequently who need confidence in their releases
-{{< /alert >}}
+{{< /service-card >}}
 
-{{< alert >}}
-{{< columns >}}
-{{< column >}}
-
-**IaC Migration & Hardening**
-
-{{< /column >}}
-{{< column >}}
-  \
-**From £12,000** \
-**Discovery Phase Included**
-{{< /column >}}
-{{< /columns >}}
-
-**Eliminate manual console configuration**
-
+{{< service-card
+  title="IaC Migration & Hardening"
+  subtitle="Eliminate manual console configuration"
+  price="From £12,000"
+  badge="Discovery Phase Included"
+>}}
 I migrate your legacy cloud footprint to versioned, modular Terraform or OpenTofu code.
 
 **Key Deliverables:**
@@ -75,7 +56,9 @@ I migrate your legacy cloud footprint to versioned, modular Terraform or OpenTof
 - Policy-as-Code guardrails
 
 **Ideal For:** Organizations with manual infrastructure processes or compliance requirements
-{{< /alert >}}
+{{< /service-card >}}
+
+{{< /services-grid >}}
 
 ---
 
