@@ -21,7 +21,7 @@
     {{ end }}
 
     <div class="service-card-body">
-      {{ .Inner }}
+      {{ .Inner | .Page.RenderString }}
     </div>
   </div>
 </div>

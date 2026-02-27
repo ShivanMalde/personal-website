@@ -1,6 +1,11 @@
 # -- Main Menu --
 
 [[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
   name = "About"
   pageRef = "about"
   weight = 10
@@ -11,7 +16,7 @@
   weight = 20
 
 [[main]]
-  name = "Intake"
+  name = "Get Started"
   pageRef = "intake"
   weight = 25
 

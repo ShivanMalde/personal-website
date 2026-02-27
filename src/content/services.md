@@ -66,7 +66,7 @@ I migrate your legacy cloud footprint to versioned, modular Terraform or OpenTof
 
 {{< timeline >}}
 
-{{< timelineItem icon="check-circle" header="Deliverables" subheader="Every project includes" >}}
+{{< timelineItem icon="check" header="Deliverables" subheader="Every project includes:" md="true">}}
 - **Technical roadmap document** with phased implementation plan
 - **Production-ready IaC code** with modules and documentation
 - **CI/CD pipeline configuration** with testing and security scans
@@ -83,7 +83,7 @@ I migrate your legacy cloud footprint to versioned, modular Terraform or OpenTof
 
 {{< timeline >}}
 
-{{< timelineItem icon="magnifying-glass-plus" header="Week 1" badge="The Scoping Sprint" subheader="Discovery Phase" >}}
+{{< timelineItem icon="search" header="Week 1" badge="The Scoping Sprint" subheader="Discovery Phase" md="true">}}
 We start with a thorough audit of your current Cloud infrastructure. I provide a Technical Roadmap before a single line of production code is written.
 
 This includes:
@@ -93,7 +93,7 @@ This includes:
 - Strategic implementation plan
 {{< /timelineItem >}}
 
-{{< timelineItem icon="code-branch" header="Weeks 2-6" badge="Execution & Automation" subheader="Implementation Phase" >}}
+{{< timelineItem icon="code" header="Weeks 2-6" badge="Execution & Automation" subheader="Implementation Phase" md="true">}}
 I build the Terraform modules or CI/CD pipelines asynchronously. You receive daily logs and video walkthroughs of the architectural changes.
 
 This phase ensures:
@@ -111,11 +111,11 @@ This phase ensures:
 
 {{< accordion mode="collapse" >}}
 
-{{< accordionItem title="How long does a typical engagement take?" icon="clock" >}}
+{{< accordionItem title="How long does a typical engagement take?" icon="star" >}}
 Most projects complete within 4-8 weeks, depending on scope and complexity. The discovery phase typically takes 1 week, followed by 3-7 weeks for implementation.
 {{< /accordionItem >}}
 
-{{< accordionItem title="What happens after implementation?" icon="question-circle" >}}
+{{< accordionItem title="What happens after implementation?" icon="circle-question" >}}
 Post-implementation support includes documentation, team training, and optional ongoing maintenance to ensure your team is fully self-sufficient.
 {{< /accordionItem >}}
 
@@ -123,11 +123,11 @@ Post-implementation support includes documentation, team training, and optional 
 Yes, I specialize in Azure and AWS, but have experience with multi-cloud strategies including GCP and hybrid environments.
 {{< /accordionItem >}}
 
-{{< accordionItem title="What size organizations do you work with?" icon="building" >}}
+{{< accordionItem title="What size organizations do you work with?" icon="location-dot" >}}
 From startups to enterprise — I've helped organizations ranging from fast-growing scale-ups to established companies with complex compliance requirements.
 {{< /accordionItem >}}
 
-{{< accordionItem title="Can you help with existing infrastructure?" icon="wrench" >}}
+{{< accordionItem title="Can you help with existing infrastructure?" icon="edit" >}}
 Absolutely. The discovery phase is designed to assess what you have and recommend either evolution or strategic migration paths.
 {{< /accordionItem >}}
 
@@ -141,9 +141,9 @@ The discovery phase includes a comprehensive audit of your current infrastructur
 
 ## Ready to Modernize?
 
-{{< alert icon="rocket" >}}
+{{< alert icon="fire" >}}
 Let's discuss your infrastructure needs and create a roadmap to production-ready systems.
 {{< /alert >}}
 
   \
-{{< button href="/intake" target="_self" icon="clipboard-list" >}} Start Intake Form{{< /button >}}
+{{< button href="/intake" target="_self" icon="list-check" >}} Start Intake Form{{< /button >}}

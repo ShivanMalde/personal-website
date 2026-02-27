@@ -31,7 +31,40 @@ flowchart LR
 
 {{< /mermaid >}}
 
-I believe in the continuous feedback loop that drives modern software delivery. Every stage informs the next, creating a cycle of constant improvement.
+I believe in the continuous feedback loop that drives modern software delivery. Every stage informs the next, creating a cycle of constant improvement that helps teams ship faster with confidence.
+
+{{< lead >}}
+This isn't just theory, it's the approach I've used to help organizations achieve 99%+ availability and ISO security certifications.
+{{< /lead >}}
+
+---
+
+## Why Work With Me
+
+{{< columns cols="3" gap="2rem" >}}
+
+{{< column >}}
+{{< icon "graduation-cap" >}}
+**7+ Years Experience**
+
+From Analyst Programmer to DevOps Manager, with hands-on expertise across the full software development lifecycle.
+{{< /column >}}
+
+{{< column >}}
+{{< icon "shield" >}}
+**Security-Focused**
+
+Key contributor to ISO 27001 and ISO 42001 certifications, with expertise in compliance and secure infrastructure practices.
+{{< /column >}}
+
+{{< column >}}
+{{< icon "lightbulb" >}}
+**Team Leadership**
+
+Currently mentoring a team of Platform and Systems Engineers while maintaining hands-on technical contributions.
+{{< /column >}}
+
+{{< /columns >}}
 
 ---
 
@@ -40,3 +73,5 @@ I believe in the continuous feedback loop that drives modern software delivery. 
 {{< alert icon="envelope">}}
 Ready to modernize your infrastructure? Let's discuss your project and create a roadmap to production-ready systems.
 {{< /alert >}}
+
+{{< button href="/services" target="_self" icon="fire" >}}View My Services{{< /button >}}

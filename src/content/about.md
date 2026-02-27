@@ -6,24 +6,31 @@ layout = "simple"
 +++
 
 {{< lead >}}
-London-based DevOps Manager and Platform Engineer with a proven track record of delivering scalable and reliable infrastructure solutions.
+Over 7 years in software industry, including 5 years dedicated to DevOps — building scalable infrastructure, leading platform engineering teams, and helping organizations achieve security certifications.
 {{< /lead >}}
 
-Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD. Over 7 years in software industry, including 5 years in dedicated DevOps — honing skills in automation and optimization of the software development lifecycle.
+Based in London, I've progressed from Analyst Programmer to DevOps Manager, working across Azure, AWS, and Kubernetes environments with a focus on reliability, security, and automation.
+
+{{< columns cols="2" gap="1rem" >}}
+{{< column >}}
+- 5+ Years DevOps
+- ISO 27001
+- ICAgile Certified
+{{< /column >}}
+{{< column >}}
+- Azure
+- AWS
+- Kubernetes
+{{< /column >}}
+{{< /columns >}}
 
 ---
 
 ## Key Achievement
 
-{{< columns >}}
-{{< column >}}
-Achieved ISO 27001 and ISO 42001 certifications
-
-{{< /column >}}
-{{< column >}}
-test
-{{< /column >}}
-{{< /columns >}}
+{{< alert icon="star" >}}
+Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organization's certification process including coordinating application security testing and standardizing code review practices.
+{{< /alert >}}
 
 ---
 
@@ -31,14 +38,14 @@ test
 
 {{< timeline >}}
 
-{{< timelineItem icon="code" header="DevOps Manager" badge="Apr 2021 - Present" subheader="Lumanity (Acquired Innovative Edge)" >}}
+{{< timelineItem icon="mug-hot" header="DevOps Manager" badge="Apr 2021 - Present" subheader="Lumanity (Acquired Innovative Edge)" md="true">}}
 - Used Azure, AWS, and CloudFlare to securely and reliably provision and deploy new applications within days
 - Mentored a skilled team of Platform and Systems Engineers
 - Used Infrastructure as Code through Terraform to manage cloud infrastructure, reducing deployment time and increasing system uptime & reliability
 - Played a key role in the organisation achieving ISO 27001 certification, including coordinating application security testing and standardising code review practices
 {{< /timelineItem >}}
 
-{{< timelineItem icon="code" header="DevOps Engineer" badge="May 2020 - Apr 2021" subheader="Innovative Edge" >}}
+{{< timelineItem icon="code" header="DevOps Engineer" badge="May 2020 - Apr 2021" subheader="Innovative Edge" md="true">}}
 - Migrated applications from on-premises to cloud-native, improving availability from under 95% to over 99%
 - Implemented CI/CD pipelines using Azure DevOps and GitHub, including automated code analysis using SonarQube
 - Used Docker and Kubernetes to deploy containerised and scalable microservice-based applications
@@ -46,7 +53,7 @@ test
 - Strengthened organisational security by implementing Azure Entra ID features including MFA, conditional access, SAML SSO, Self Service Password Reset, and PIM
 {{< /timelineItem >}}
 
-{{< timelineItem icon="code" header="DevOps Engineer" badge="Aug 2018 - May 2020" subheader="IRIS Software Group" >}}
+{{< timelineItem icon="globe" header="DevOps Engineer" badge="Aug 2018 - May 2020" subheader="IRIS Software Group" md="true">}}
 - Became a crucial part of a Release Engineering team to develop CI/CD tooling
 - Gained experience throughout the software development life cycle using Git, Visual Studio, Azure DevOps, and unit testing
 - Employed PowerShell and Ansible to automate business processes and complex deployment, reducing human error
@@ -54,7 +61,7 @@ test
 - Worked in an Agile methodology, collaborating with scrum master and stakeholders
 {{< /timelineItem >}}
 
-{{< timelineItem icon="code" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" >}}
+{{< timelineItem icon="code" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" md="true">}}
 - Built great relationships working in an onsite environment, improving the business relationship with the client
 - Participated in all parts of the software development lifecycle from design to implementation and testing
 - Employed code reviews, automated testing, and version control to ensure high code standards
@@ -69,7 +76,7 @@ test
 
 {{< timeline >}}
 
-{{< timelineItem icon="graduation-cap" header="BSc (Hons) in Mathematics & Physics" badge="2013 - 2016" subheader="Royal Holloway, University of London" >}}
+{{< timelineItem icon="graduation-cap" header="BSc (Hons) in Mathematics & Physics" badge="2013 - 2016" subheader="Royal Holloway, University of London" md="true">}}
 Foundation in analytical thinking and problem-solving that translates directly to complex infrastructure architecture and system optimization challenges.
 {{< /timelineItem >}}
 
@@ -82,9 +89,9 @@ Foundation in analytical thinking and problem-solving that translates directly t
 ### Leadership & Management
 
 {{< keywordList >}}
-{{< keyword icon="users-gear" >}} Team Leadership{{< /keyword >}}
-{{< keyword icon="people-group" >}} Cross-functional Communication{{< /keyword >}}
-{{< keyword icon="certificate" >}} Agile Methodologies{{< /keyword >}}
+{{< keyword icon="mug-hot" >}} Team Leadership{{< /keyword >}}
+{{< keyword icon="language" >}} Cross-functional Communication{{< /keyword >}}
+{{< keyword icon="graduation-cap" >}} Agile Methodologies{{< /keyword >}}
 {{< keyword icon="graduation-cap" >}} Mentorship{{< /keyword >}}
 {{< /keywordList >}}
 
@@ -92,10 +99,10 @@ Foundation in analytical thinking and problem-solving that translates directly t
 
 {{< keywordList >}}
 {{< keyword icon="microsoft" >}} Azure{{< /keyword >}}
-{{< keyword icon="aws" >}} AWS{{< /keyword >}}
-{{< keyword icon="server" >}} Kubernetes{{< /keyword >}}
-{{< keyword icon="code-branch" >}} Terraform{{< /keyword >}}
-{{< keyword icon="cloudflare" >}} CloudFlare{{< /keyword >}}
+{{< keyword icon="amazon" >}} AWS{{< /keyword >}}
+{{< keyword icon="docker" >}} Kubernetes{{< /keyword >}}
+{{< keyword icon="code" >}} Terraform{{< /keyword >}}
+{{< keyword icon="cloud" >}} CloudFlare{{< /keyword >}}
 {{< keyword icon="docker" >}} Docker{{< /keyword >}}
 {{< /keywordList >}}
 
@@ -104,16 +111,16 @@ Foundation in analytical thinking and problem-solving that translates directly t
 {{< keywordList >}}
 {{< keyword icon="github" >}} CI/CD{{< /keyword >}}
 {{< keyword icon="code" >}} C#{{< /keyword >}}
-{{< keyword icon="terminal" >}} PowerShell{{< /keyword >}}
-{{< keyword icon="cogs" >}} Process Automation{{< /keyword >}}
-{{< keyword icon="database" >}} SQL{{< /keyword >}}
+{{< keyword icon="code" >}} PowerShell{{< /keyword >}}
+{{< keyword icon="scale-balanced" >}} Process Automation{{< /keyword >}}
+{{< keyword icon="list-check" >}} SQL{{< /keyword >}}
 {{< /keywordList >}}
 
 ### Certifications & Compliance
 
 {{< keywordList >}}
-{{< keyword icon="shield-check" >}} Security & Compliance{{< /keyword >}}
-{{< keyword icon="certificate" >}} ICAgile Certified{{< /keyword >}}
+{{< keyword icon="shield" >}} Security & Compliance{{< /keyword >}}
+{{< keyword icon="graduation-cap" >}} ICAgile Certified{{< /keyword >}}
 {{< keyword icon="lock" >}} ISO 27001{{< /keyword >}}
 {{< /keywordList >}}
 
