@@ -36,22 +36,7 @@
 
 /* Professional Service Cards */
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2rem;
   margin: 2rem 0;
-}
-
-@media (min-width: 768px) {
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .services-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .service-card {
@@ -182,4 +167,11 @@ html.dark .service-card-body strong {
 
 html.dark .service-card:hover {
   box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
+}
+
+/* Large Intake Button */
+a[href="/intake"] {
+  padding: 1rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
 }

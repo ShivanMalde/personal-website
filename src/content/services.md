@@ -12,17 +12,20 @@ DevOps consulting to help organizations build reliable, scalable, and secure inf
 
 Specialized in **Kubernetes**, **Infrastructure as Code**, and **Enterprise-scale CI/CD**.
 
----
-
-{{< alert icon="triangle-exclamation" >}}
+{{< alert icon="fire" >}}
+Let's discuss your infrastructure needs and create a roadmap to production-ready systems.
 No billable implementation without discovery. Every engagement starts with a thorough technical assessment.
 {{< /alert >}}
+
+  \
+{{< button href="/intake" target="_self" icon="list-check" >}} Start Intake Form{{< /button >}}
+
 
 ---
 
 ## Service Offerings
 
-{{< services-grid >}}
+{{< services-grid cols="2">}}
 
 {{< service-card
   title="CI/CD Pipeline Architecture"
