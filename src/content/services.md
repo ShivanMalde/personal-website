@@ -7,10 +7,10 @@ layout = "simple"
 +++
 
 {{< lead >}}
-DevOps consulting to help organizations build reliable, scalable, and secure infrastructure.
+DevOps consulting to help organisations build reliable, scalable, and secure infrastructure.
 {{< /lead >}}
 
-Specialized in **Kubernetes**, **Infrastructure as Code**, and **Enterprise-scale CI/CD**.
+Specialising in **Kubernetes**, **Infrastructure as Code**, and **Enterprise-scale CI/CD**.
 
 {{< alert icon="fire" >}}
 Let's discuss your infrastructure needs and create a roadmap to production-ready systems.
@@ -58,7 +58,7 @@ I migrate your legacy cloud footprint to versioned, modular Terraform or OpenTof
 - Automated State Management & Recovery
 - Policy-as-Code guardrails
 
-**Ideal For:** Organizations with manual infrastructure processes or compliance requirements
+**Ideal For:** Organisations with manual infrastructure processes or compliance requirements
 {{< /service-card >}}
 
 {{< /services-grid >}}
@@ -123,11 +123,11 @@ Post-implementation support includes documentation, team training, and optional 
 {{< /accordionItem >}}
 
 {{< accordionItem title="Do you work with specific cloud providers?" icon="cloud" >}}
-Yes, I specialize in Azure and AWS, but have experience with multi-cloud strategies including GCP and hybrid environments.
+Yes, I specialise in Azure and AWS, but have experience with multi-cloud strategies including GCP and hybrid environments.
 {{< /accordionItem >}}
 
-{{< accordionItem title="What size organizations do you work with?" icon="location-dot" >}}
-From startups to enterprise, I've helped organizations ranging from fast-growing scale-ups to established companies with complex compliance requirements.
+{{< accordionItem title="What size organisations do you work with?" icon="location-dot" >}}
+From startups to enterprise, I've helped organisations ranging from fast-growing scale-ups to established companies with complex compliance requirements.
 {{< /accordionItem >}}
 
 {{< accordionItem title="Can you help with existing infrastructure?" icon="edit" >}}

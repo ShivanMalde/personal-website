@@ -34,9 +34,9 @@ flowchart LR
 {{< /mermaid >}}
 
 {{< lead >}}
-I believe in the continuous feedback loop that drives modern software delivery. Every stage informs the next, creating a cycle of constant improvement that helps teams ship faster with confidence.
+I believe in the continuous feedback loop that drives modern software delivery. Every stage informs the next, creating a culture of continual improvement that enables teams to ship faster and more reliably.
 
-This is the approach I've used to help organizations achieve 99%+ availability and ISO security certifications.
+This is the approach I've used to help organisations achieve 99%+ availability and ISO security certifications.
 {{< /lead >}}
 
 ---

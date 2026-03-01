@@ -6,7 +6,7 @@ layout = "simple"
 +++
 
 {{< lead >}}
-Over 7 years in software industry, including 5 years dedicated to DevOps - building scalable infrastructure, leading platform engineering teams, and helping organizations achieve security certifications.
+Over 7 years in the software industry, including 5 years dedicated to DevOps - building scalable infrastructure, leading platform engineering teams, and helping organisations achieve security certifications.
 {{< /lead >}}
 
 Based in London, I've progressed from Analyst Programmer to DevOps Manager, working across Azure, AWS, and Kubernetes environments with a focus on reliability, security, and automation.
@@ -29,7 +29,7 @@ Based in London, I've progressed from Analyst Programmer to DevOps Manager, work
 ## Key Achievement
 
 {{< alert icon="star" >}}
-Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organization's certification process including coordinating application security testing and standardizing code review practices.
+Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organisation's certification process including coordinating application security testing and standardising code review practices.
 {{< /alert >}}
 
 ---
@@ -42,7 +42,7 @@ Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organ
 - Used Azure, AWS, and CloudFlare to securely and reliably provision and deploy new applications within days
 - Mentored a skilled team of Platform and Systems Engineers
 - Used Infrastructure as Code through Terraform to manage cloud infrastructure, reducing deployment time and increasing system uptime & reliability
-- Played a key role in the organisation achieving ISO 27001 certification, including coordinating application security testing and standardising code review practices
+- Played a key role in the organisation's ISO 27001 and ISO 42001 certifications, coordinating application security testing and standardising code review practices
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="DevOps Engineer" badge="May 2020 - Apr 2021" subheader="Innovative Edge" md="true">}}
@@ -54,7 +54,7 @@ Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organ
 {{< /timelineItem >}}
 
 {{< timelineItem icon="globe" header="DevOps Engineer" badge="Aug 2018 - May 2020" subheader="IRIS Software Group" md="true">}}
-- Became a crucial part of a Release Engineering team to develop CI/CD tooling
+- Joined the Release Engineering team to develop CI/CD tooling
 - Gained experience throughout the software development life cycle using Git, Visual Studio, Azure DevOps, and unit testing
 - Employed PowerShell and Ansible to automate business processes and complex deployment, reducing human error
 - Engineered complex C# solutions with MVVM, WPF, and object-oriented design
@@ -62,7 +62,7 @@ Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organ
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" md="true">}}
-- Built great relationships working in an onsite environment, improving the business relationship with the client
+- Built strong client relationships working on-site, improving the business partnership
 - Participated in all parts of the software development lifecycle from design to implementation and testing
 - Employed code reviews, automated testing, and version control to ensure high code standards
 - Worked to Agile Scrum methodologies to improve turnaround time of client issues and enhancements
@@ -77,7 +77,7 @@ Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organ
 {{< timeline >}}
 
 {{< timelineItem icon="graduation-cap" header="BSc (Hons) in Mathematics & Physics" badge="2013 - 2016" subheader="Royal Holloway, University of London" md="true">}}
-Foundation in analytical thinking and problem-solving that translates directly to complex infrastructure architecture and system optimization challenges.
+Foundation in analytical thinking and problem-solving that I continue to apply to complex infrastructure architecture and system optimisation challenges.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
