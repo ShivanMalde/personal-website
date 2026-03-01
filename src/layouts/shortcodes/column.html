@@ -1,3 +1,6 @@
-<div class="column">
-  {{ .Inner | strings.TrimSpace | markdownify }}
-</div>
+{{- $index := .Parent.Store.Get "column-index" | default 0 -}}
+{{- $content := .InnerDeindent | strings.TrimSpace | .Page.RenderString -}}
+
+{{- $columns := .Parent.Store.Get "columns" | default slice -}}
+{{- .Parent.Store.Set "columns" ($columns | append $content) -}}
+{{- .Parent.Store.Set "column-index" (add 1 $index) -}}

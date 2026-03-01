@@ -1,0 +1,33 @@
+# -- Main Menu --
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Services"
+  pageRef = "services"
+  weight = 20
+
+[[main]]
+  name = "Get Started"
+  pageRef = "intake"
+  weight = 25
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/ShivanMalde"
+  weight = 100
+
+  [[main]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://linkedin.com/in/shivanmalde"
+  weight = 200
