@@ -127,7 +127,7 @@ Yes, I specialize in Azure and AWS, but have experience with multi-cloud strateg
 {{< /accordionItem >}}
 
 {{< accordionItem title="What size organizations do you work with?" icon="location-dot" >}}
-From startups to enterprise — I've helped organizations ranging from fast-growing scale-ups to established companies with complex compliance requirements.
+From startups to enterprise, I've helped organizations ranging from fast-growing scale-ups to established companies with complex compliance requirements.
 {{< /accordionItem >}}
 
 {{< accordionItem title="Can you help with existing infrastructure?" icon="edit" >}}

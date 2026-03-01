@@ -18,7 +18,6 @@ title = "Shivan Malde | DevOps Manager and Platform Engineer"
   name = "Shivan Malde"
   image = "/img/pro_portrait.jpg"
   imageQuality = 96
-  headline = "DevOps Manager & Platform Engineer"
   bio = "London-based DevOps manager and platform engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD."
   links = [
     { github = "https://github.com/ShivanMalde" },

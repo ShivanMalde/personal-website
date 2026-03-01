@@ -6,7 +6,7 @@ layout = "simple"
 +++
 
 {{< lead >}}
-Over 7 years in software industry, including 5 years dedicated to DevOps — building scalable infrastructure, leading platform engineering teams, and helping organizations achieve security certifications.
+Over 7 years in software industry, including 5 years dedicated to DevOps - building scalable infrastructure, leading platform engineering teams, and helping organizations achieve security certifications.
 {{< /lead >}}
 
 Based in London, I've progressed from Analyst Programmer to DevOps Manager, working across Azure, AWS, and Kubernetes environments with a focus on reliability, security, and automation.
