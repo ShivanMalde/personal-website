@@ -13,6 +13,8 @@ Hi, my name is Shivan.
 London-based DevOps manager and platform engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD.
 {{< /lead >}}
 
+{{< button href="/services" target="_self" icon="fire" >}}View My Services{{< /button >}}
+
 ---
 
 ## DevOps Philosophy

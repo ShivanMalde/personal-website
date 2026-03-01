@@ -169,8 +169,14 @@ html.dark .service-card:hover {
   box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
 }
 
-/* Large Intake Button */
+/* Large Intake & Service Buttons */
 a[href="/intake"] {
+  padding: 1rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+a[href="/services"] {
   padding: 1rem 2.5rem;
   font-size: 1.125rem;
   font-weight: 600;
