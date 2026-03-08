@@ -142,7 +142,7 @@ The discovery phase includes a comprehensive audit of your current infrastructur
 
 ---
 
-## Ready to Modernize?
+## Ready to Modernise?
 
 {{< alert icon="fire" >}}
 Let's discuss your infrastructure needs and create a roadmap to production-ready systems.

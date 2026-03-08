@@ -7,7 +7,7 @@ description = "DevOps Manager and Platform Engineer"
 
 {{< lead >}}
 
-London-based DevOps manager and platform engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Specialized in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD.
+London-based DevOps manager and platform engineer with a proven track record of delivering scalable and reliable infrastructure solutions. Specialised in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD.
 
 {{< /lead >}}
 
@@ -71,7 +71,7 @@ Currently mentoring a team of Engineers and Developers while maintaining hands-o
 ## Let's Build Something Great
 
 {{< alert icon="envelope">}}
-Ready to modernize your infrastructure? Let's discuss your project and create a roadmap to production-ready systems.
+Ready to modernise your infrastructure? Let's discuss your project and create a roadmap to production-ready systems.
 {{< /alert >}}
 
 
