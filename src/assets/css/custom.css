@@ -1,7 +1,7 @@
 /* Nextcloud Form Embed Styling */
 .nextcloud-form-embed {
   width: 100%;
-  height: 2500px; /* Generous height to accommodate full form */
+  height: 2800px; /* Generous height to accommodate full form */
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   background: white;

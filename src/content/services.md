@@ -18,7 +18,7 @@ No billable implementation without discovery. Every engagement starts with a tho
 {{< /alert >}}
 
   \
-{{< button href="/intake" target="_self" icon="list-check" >}} Start Intake Form{{< /button >}}
+{{< button href="/intake" target="_self" icon="list-check" >}} Contact Me {{< /button >}}
 
 
 ---

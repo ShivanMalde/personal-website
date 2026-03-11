@@ -39,7 +39,7 @@ You get daily progress updates, video walkthroughs, and detailed documentation. 
 {{< icon "code" >}}
 **Production-Ready Code**
 
-Every project delivers Terraform modules, CI/CD pipelines, and comprehensive documentation your team can actually maintain - not black-box solutions.
+Every project delivers Terraform modules, CI/CD pipelines, and comprehensive documentation your team can actually maintain.
 {{< /column >}}
 
 {{< /columns >}}

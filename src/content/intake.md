@@ -1,21 +1,15 @@
 +++
-title = "DevOps Intake Form"
-description = "Client screening questionnaire"
+title = "Contact Me"
+description = "Client questionnaire"
 draft = false
 layout = "simple"
 +++
 
 {{< lead >}}
-Tell me about your DevOps challenges and let's see if we're a good fit to work together.
+This form helps me understand your infrastructure challenges and determine how I can help. I will aim to review your submission and be in touch within 2 business days to arrange a discovery call.
 {{< /lead >}}
 
-{{< alert icon="triangle-exclamation" >}}
-This intake form helps me understand your infrastructure challenges and determine if I can help. I will aim to review your submission and be in touch within 2 business days to arrange a discovery call.
-{{< /alert >}}
-
 ---
-
-## DevOps Intake Form
 
 {{< nextcloud-form
   src="https://nx83416.your-storageshare.de/apps/forms/embed/7tbyqzgXTGRQGJDdxZC89eaJ"
