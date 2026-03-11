@@ -6,12 +6,14 @@ layout = "simple"
 +++
 
 {{< lead >}}
-Over 7 years in the software industry, including 5 years dedicated to DevOps - building scalable infrastructure, leading platform engineering teams, and helping organisations achieve security certifications.
+I help organisations achieve 99%+ availability and ISO security certifications through structured DevOps expertise.
 {{< /lead >}}
 
-Based in London, I've progressed from Analyst Programmer to DevOps Manager, working across Azure, AWS, and Kubernetes environments with a focus on reliability, security, and automation.
+I've spent 7 years in the software industry, including 5 years specifically in DevOps, building scalable infrastructure, leading platform engineering teams, and helping organisations achieve security certifications. Based in London, I currently work as a DevOps Manager.
 
-{{< columns cols="2" gap="1rem" >}}
+I deliver projects asynchronously through structured sprints: you get daily progress updates, detailed documentation, and full knowledge transfer.
+
+{{< columns cols="3" gap="1rem" >}}
 {{< column >}}
 - 5+ Years DevOps
 - ISO 27001
@@ -22,15 +24,12 @@ Based in London, I've progressed from Analyst Programmer to DevOps Manager, work
 - AWS
 - Kubernetes
 {{< /column >}}
+{{< column >}}
+- Docker
+- Terraform
+- CI/CD
+{{< /column >}}
 {{< /columns >}}
-
----
-
-## Key Achievement
-
-{{< alert icon="star" >}}
-Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organisation's certification process including coordinating application security testing and standardising code review practices.
-{{< /alert >}}
 
 ---
 
@@ -38,11 +37,12 @@ Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organ
 
 {{< timeline >}}
 
-{{< timelineItem icon="mug-hot" header="DevOps Manager" badge="Apr 2021 - Present" subheader="Lumanity (Acquired Innovative Edge)" md="true">}}
+{{< timelineItem icon="cloud" header="DevOps Manager" badge="Apr 2021 - Present" subheader="Lumanity (Acquired Innovative Edge)" md="true">}}
+- Led a skilled DevOps team to build cross-organisational infrastructure and standards from the ground up
 - Used Azure, AWS, and CloudFlare to securely and reliably provision and deploy new applications within days
-- Mentored a skilled team of Platform and Systems Engineers
 - Used Infrastructure as Code through Terraform to manage cloud infrastructure, reducing deployment time and increasing system uptime & reliability
-- Played a key role in the organisation's ISO 27001 and ISO 42001 certifications, coordinating application security testing and standardising code review practices
+- Played a key role in the organisation's ISO 27001 certification, coordinating application security testing and standardising code review practices
+- Drove ISO 42001 certification by building organisational AI governance and secure development processes
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="DevOps Engineer" badge="May 2020 - Apr 2021" subheader="Innovative Edge" md="true">}}
@@ -54,18 +54,17 @@ Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organ
 {{< /timelineItem >}}
 
 {{< timelineItem icon="globe" header="DevOps Engineer" badge="Aug 2018 - May 2020" subheader="IRIS Software Group" md="true">}}
-- Joined the Release Engineering team to develop CI/CD tooling
-- Gained experience throughout the software development life cycle using Git, Visual Studio, Azure DevOps, and unit testing
-- Employed PowerShell and Ansible to automate business processes and complex deployment, reducing human error
-- Engineered complex C# solutions with MVVM, WPF, and object-oriented design
-- Worked in an Agile methodology, collaborating with scrum master and stakeholders
+- Developed CI/CD tooling for the Release Engineering team
+- Automated business processes and complex deployments using PowerShell and Ansible, reducing human error
+- Built C# solutions with MVVM, WPF, and object-oriented design
+- Collaborated in Agile sprints with scrum masters and stakeholders
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" md="true">}}
-- Built strong client relationships working on-site, improving the business partnership
-- Participated in all parts of the software development lifecycle from design to implementation and testing
-- Employed code reviews, automated testing, and version control to ensure high code standards
-- Worked to Agile Scrum methodologies to improve turnaround time of client issues and enhancements
+- Built client relationships through working on-site, strengthening business partnerships
+- Participated in the full software development lifecycle from design to implementation and testing
+- Implemented code reviews, automated testing, and version control to maintain high code standards
+- Used Agile Scrum methodologies to improve turnaround time for client issues and enhancements
 {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -77,7 +76,7 @@ Achieved ISO 27001 and ISO 42001 certifications, playing a key role in the organ
 {{< timeline >}}
 
 {{< timelineItem icon="graduation-cap" header="BSc (Hons) in Mathematics & Physics" badge="2013 - 2016" subheader="Royal Holloway, University of London" md="true">}}
-Foundation in analytical thinking and problem-solving that I continue to apply to complex infrastructure architecture and system optimisation challenges.
+Foundation in analytical thinking and problem-solving that I continue to apply to the complex architecture and optimisation challenges I face in my day-to-day.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -112,8 +111,8 @@ Foundation in analytical thinking and problem-solving that I continue to apply t
 {{< keyword icon="github" >}} CI/CD{{< /keyword >}}
 {{< keyword icon="code" >}} C#{{< /keyword >}}
 {{< keyword icon="code" >}} PowerShell{{< /keyword >}}
+{{< keyword icon="code" >}} SQL{{< /keyword >}}
 {{< keyword icon="scale-balanced" >}} Process Automation{{< /keyword >}}
-{{< keyword icon="list-check" >}} SQL{{< /keyword >}}
 {{< /keywordList >}}
 
 ### Certifications & Compliance
@@ -122,6 +121,7 @@ Foundation in analytical thinking and problem-solving that I continue to apply t
 {{< keyword icon="shield" >}} Security & Compliance{{< /keyword >}}
 {{< keyword icon="graduation-cap" >}} ICAgile Certified{{< /keyword >}}
 {{< keyword icon="lock" >}} ISO 27001{{< /keyword >}}
+{{< keyword icon="lock" >}} ISO 42001{{< /keyword >}}
 {{< /keywordList >}}
 
 ---
@@ -130,37 +130,52 @@ Foundation in analytical thinking and problem-solving that I continue to apply t
 
 {{< tabs >}}
 
-{{< tab label="Tools" icon="language" >}}
-**Platforms & Tools**
-- Azure DevOps
-- Azure AD/Entra ID
+{{< tab label="Cloud/Infra" icon="cloud" >}}
 - GitHub
 - Cloudflare
-- PowerShell
 - Terraform
-- SQL
 - Docker
 - Kubernetes
+
+{{< /tab >}}
+{{< tab label="Tools" icon="code" >}}
+- PowerShell
+- SQL
 - Helm
 - C#
 - SonarQube
 - Office 365
 - Linux
 - WSL
+- Postman
 {{< /tab >}}
 
 {{< tab label="Azure" icon="microsoft" >}}
+- Azure DevOps
+- Azure AD/Entra ID
 - Kubernetes Service
 - Blob Storage
 - Functions
 - Logic Apps
 - Networking
+- AI Foundry
 {{< /tab >}}
 
 {{< tab label="AWS" icon="amazon" >}}
 - EC2
 - Route 53
 - S3
+- Amplify
+- Bedrock
+{{< /tab >}}
+
+{{< tab label="AI" icon="lightbulb" >}}
+- MCP
+- Claude Code
+- Cline
+- Azure AI Foundry
+- AWS Bedrock
+- Google Gemini/Vertex AI
 {{< /tab >}}
 
 {{< /tabs >}}
