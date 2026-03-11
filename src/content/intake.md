@@ -10,7 +10,7 @@ Tell me about your DevOps challenges and let's see if we're a good fit to work t
 {{< /lead >}}
 
 {{< alert icon="triangle-exclamation" >}}
-This intake form helps me understand your infrastructure challenges and determine if I can help. Most responses are received within 24-48 hours.
+This intake form helps me understand your infrastructure challenges and determine if I can help. I will aim to review your submission and be in touch within 2 business days to arrange a discovery call.
 {{< /alert >}}
 
 ---
