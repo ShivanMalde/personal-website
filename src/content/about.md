@@ -11,8 +11,6 @@ I help organisations achieve 99%+ availability and ISO security certifications t
 
 I've spent 7 years in the software industry, including 5 years specifically in DevOps, building scalable infrastructure, leading platform engineering teams, and helping organisations achieve security certifications. Based in London, I currently work as a DevOps Manager.
 
-I deliver projects asynchronously through structured sprints: you get daily progress updates, detailed documentation, and full knowledge transfer.
-
 {{< columns cols="3" gap="1rem" >}}
 {{< column >}}
 - 5+ Years DevOps
