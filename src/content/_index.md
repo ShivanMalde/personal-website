@@ -7,7 +7,7 @@ description = "DevOps consulting for organisations that need infrastructure expe
 
 {{< lead >}}
 
-I help organisations achieve 99%+ availability and ISO security certifications through structured DevOps consulting, delivered asynchronously, without disrupting your team or requiring a full-time engagement.
+I help organisations achieve 99%+ availability and ISO security certifications through structured DevOps expertise, without disrupting your team.
 
 Specialising in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD pipelines.
 
