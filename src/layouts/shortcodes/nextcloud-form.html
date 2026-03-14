@@ -5,8 +5,14 @@
   {{- errorf "nextcloud-form shortcode: 'src' parameter is required: %s" .Position -}}
 {{- end -}}
 
+{{- $origin := "" -}}
+{{- with $src -}}
+  {{- $origin = replaceRE "^(https?://[^/]+).*" "$1" . -}}
+{{- end -}}
+
 <div class="nextcloud-form-container">
   <iframe
+    id="nextcloud-form-iframe"
     src="{{ $src }}"
     class="{{ $class }}"
     width="100%"
@@ -14,3 +20,28 @@
     title="DevOps Intake Form">
   </iframe>
 </div>
+
+{{- if $origin -}}
+<script>
+(function() {
+  var iframe = document.getElementById('nextcloud-form-iframe');
+  if (!iframe) return;
+
+  window.addEventListener('message', function(event) {
+    // Validate origin for security
+    if (event.origin !== '{{ $origin }}') {
+      return;
+    }
+
+    // Handle Nextcloud resize message
+    if (event.data && event.data.type === 'resize-iframe') {
+      var height = event.data.payload && event.data.payload.height;
+      if (height) {
+        // Add extra buffer to prevent scrollbars from content slightly exceeding the height
+        iframe.style.height = (height + 150) + 'px';
+      }
+    }
+  }, false);
+})();
+</script>
+{{- end -}}
