@@ -38,6 +38,8 @@
 /* Professional Service Cards */
 .services-grid {
   margin: 2rem 0;
+  /* Override inline style from shortcode for responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
 }
 
 .service-card {
