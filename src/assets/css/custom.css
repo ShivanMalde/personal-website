@@ -198,3 +198,20 @@ a[href="/services"] {
   font-size: 1.125rem;
   font-weight: 600;
 }
+
+/* Responsive Columns - Override inline style from shortcode */
+.columns-container {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+@media (max-width: 900px) {
+  .columns-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .columns-container {
+    grid-template-columns: 1fr !important;
+  }
+}
