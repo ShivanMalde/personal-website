@@ -10,7 +10,7 @@ layout = "simple"
 DevOps consulting for organisations that need infrastructure expertise without a full-time hire.
 {{< /lead >}}
 
-Specialising in **Kubernetes**, **Infrastructure as Code**, and **Enterprise-scale CI/CD**, delivered asynchronously through structured sprints with full documentation.
+Specialising in **Infrastructure as Code**, **Enterprise-scale CI/CD**, and **AI-Enablement**, delivered asynchronously through structured sprints with full documentation.
 
 {{< alert icon="fire" >}}
 Let's discuss your infrastructure needs and create a roadmap to production-ready systems.
