@@ -9,7 +9,7 @@ description = "DevOps consulting for organisations that need infrastructure expe
 
 I help organisations achieve 99%+ availability and ISO security certifications through structured DevOps expertise, without disrupting your team.
 
-Specialising in Kubernetes, Infrastructure as Code, and enterprise-scale CI/CD pipelines.
+Specialising in Azure, AWS, Kubernetes, Terraform, and CI/CD pipelines, with a security-first approach.
 
 {{< /lead >}}
 
