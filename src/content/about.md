@@ -9,7 +9,7 @@ layout = "simple"
 I help organisations achieve 99%+ availability and ISO security certifications through structured DevOps expertise.
 {{< /lead >}}
 
-I've spent 7 years in the software industry, including 5 years specifically in DevOps, building scalable infrastructure, leading platform engineering teams, and helping organisations achieve security certifications. Based in London, I currently work as a DevOps Manager.
+I've spent 10 years in the software industry, including 5+ years in dedicated DevOps roles, building scalable infrastructure, leading platform engineering teams, and helping organisations achieve security certifications. Based in London, I currently work as a DevOps Manager.
 
 {{< columns cols="3" gap="1rem" >}}
 {{< column >}}
@@ -35,34 +35,37 @@ I've spent 7 years in the software industry, including 5 years specifically in D
 
 {{< timeline >}}
 
-{{< timelineItem icon="cloud" header="DevOps Manager" badge="Apr 2021 - Present" subheader="Lumanity (Acquired Innovative Edge)" md="true">}}
-- Led a skilled DevOps team to build cross-organisational infrastructure and standards from the ground up
-- Used Azure, AWS, and CloudFlare to securely and reliably provision and deploy new applications within days
-- Used Infrastructure as Code through Terraform to manage cloud infrastructure, reducing deployment time and increasing system uptime & reliability
-- Played a key role in the organisation's ISO 27001 certification, coordinating application security testing and standardising code review practices
-- Drove ISO 42001 certification by building organisational AI governance and secure development processes
+{{< timelineItem icon="cloud" header="DevOps Manager" badge="Oct 2022 - Present" subheader="Lumanity" md="true">}}
+- Provisioned and deployed new cloud-native applications across Azure, AWS, and Cloudflare within days, maintaining high availability at scale
+- Mentored a skilled team of Platform and Systems Engineers, driving technical growth and delivery excellence
+- Delivered Terraform-based Infrastructure as Code across multi-cloud environments, enabling repeatable zero-downtime deployments
+- Hardened CI/CD pipelines with automated security gates and vulnerability remediation workflows, eliminating all high-severity findings before customer release
+- Led the organisation to ISO 27001 certification, coordinating application security testing, standardising code review practices, and enforcing unit testing and static code analysis
+- Drove ISO 42001 AI governance initiatives, establishing responsible AI deployment frameworks and policies across the organisation
+- Leveraged Azure AI Foundry and AWS Bedrock to design and deliver AI-integrated platform solutions
 {{< /timelineItem >}}
 
-{{< timelineItem icon="code" header="DevOps Engineer" badge="May 2020 - Apr 2021" subheader="Innovative Edge" md="true">}}
-- Migrated applications from on-premises to cloud-native, improving availability from under 95% to over 99%
-- Implemented CI/CD pipelines using Azure DevOps and GitHub, including automated code analysis using SonarQube
-- Used Docker and Kubernetes to deploy containerised and scalable microservice-based applications
-- Led the move towards greater adoption of Agile working practices across the business
-- Strengthened organisational security by implementing Azure Entra ID features including MFA, conditional access, SAML SSO, Self Service Password Reset, and PIM
+{{< timelineItem icon="code" header="DevOps Engineer" badge="May 2020 - Oct 2022" subheader="Innovative Edge" md="true">}}
+- Migrated applications from on-premises to cloud-native infrastructure, improving availability from under 95% to over 99% and significantly reducing operational overhead
+- Built CI/CD pipelines using Azure DevOps and GitHub with integrated SonarQube analysis, reducing issue discovery and turnaround time from months to minutes
+- Deployed containerised, scalable microservice workloads using Docker and Kubernetes
+- Secured the identity perimeter with Azure Entra ID, implementing MFA with conditional access, SAML SSO, Self-Service Password Reset, and Privileged Identity Management
+- Led cross-business adoption of Agile working practices, improving delivery cadence and team alignment
 {{< /timelineItem >}}
 
 {{< timelineItem icon="globe" header="DevOps Engineer" badge="Aug 2018 - May 2020" subheader="IRIS Software Group" md="true">}}
-- Developed CI/CD tooling for the Release Engineering team
-- Automated business processes and complex deployments using PowerShell and Ansible, reducing human error
-- Built C# solutions with MVVM, WPF, and object-oriented design
-- Collaborated in Agile sprints with scrum masters and stakeholders
+- Joined a Release Engineering team building CI/CD tooling that supported software delivery across multiple product lines
+- Automated business processes and complex deployments using PowerShell and Ansible, reducing human error frequency and enabling consistent releases
+- Applied Git, Azure DevOps, and unit testing best practices throughout the development lifecycle, raising code quality standards across the team
+- Developed C# solutions using MVVM, WPF, and object-oriented design, bridging developer and operations responsibilities
+- Worked in an Agile methodology, collaborating with scrum master and stakeholders to ensure smooth processes and releases
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" md="true">}}
-- Built client relationships through working on-site, strengthening business partnerships
-- Participated in the full software development lifecycle from design to implementation and testing
-- Implemented code reviews, automated testing, and version control to maintain high code standards
-- Used Agile Scrum methodologies to improve turnaround time for client issues and enhancements
+- Collaborated closely with client stakeholders in an on-site delivery model, building strong cross-functional communication skills across technical and business teams
+- Contributed across the full software development lifecycle from design through implementation and testing, establishing a rigorous foundation in delivery quality
+- Enforced code review, automated testing, and version control standards, developing early quality engineering habits
+- Worked to Agile Scrum methodologies to improve turnaround time of client issues and enhancements
 {{< /timelineItem >}}
 
 {{< /timeline >}}

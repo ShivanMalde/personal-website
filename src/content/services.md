@@ -23,7 +23,67 @@ No billable implementation without discovery. Every engagement starts with a tho
 
 ---
 
-## Service Offerings
+## Assessment Services
+
+Short, fixed-scope engagements that give you a clear picture of where you stand and a prioritised roadmap, without committing to a full implementation project.
+
+{{< services-grid cols="3">}}
+
+{{< service-card
+  title="ISO 27001 Readiness Assessment"
+  subtitle="Know exactly where you stand before the auditors arrive"
+  badge="Fixed Scope"
+>}}
+I conduct a structured gap analysis of your current controls against ISO 27001 Annex A and deliver a prioritised roadmap your team can act on immediately.
+
+**Key Deliverables:**
+- Current controls assessment against ISO 27001 Annex A
+- Risk register baseline
+- Prioritised remediation roadmap
+- Auditor-ready gap report
+
+**Ideal For:** SaaS companies preparing for ISO 27001 Stage 1 audit or pursuing certification for the first time
+{{< /service-card >}}
+
+{{< service-card
+  title="DevOps Platform Health Check"
+  subtitle="Find out what's holding your team back before investing in a fix"
+  badge="Fixed Scope"
+>}}
+I audit your existing pipelines, infrastructure, and deployment processes and score them against best-practice benchmarks.
+
+**Key Deliverables:**
+- CI/CD pipeline & branching strategy review
+- IaC state & drift assessment
+- Secrets management & security posture review
+- Scored report with prioritised recommendations
+
+**Ideal For:** Teams who want to understand their infrastructure gaps before committing to a larger engagement
+{{< /service-card >}}
+
+{{< service-card
+  title="AI Governance Assessment"
+  subtitle="Prove your AI tooling is safe, auditable, and under control"
+  badge="Fixed Scope"
+>}}
+I review your engineering team's AI tool usage against ISO 42001 controls and deliver the policy documentation to satisfy stakeholders and certifiers.
+
+**Key Deliverables:**
+- AI tooling inventory & data risk review
+- Policy pack: acceptable use, data classification, incident response
+- ISO 42001 control gap analysis
+- Auditor-ready documentation
+
+**Ideal For:** Engineering teams using AI coding tools who need board-level confidence or audit readiness
+{{< /service-card >}}
+
+{{< /services-grid >}}
+
+---
+
+## Implementation Services
+
+Longer engagements for teams ready to act on their gaps. Every implementation project begins with a scoping sprint before any production code is written.
 
 {{< services-grid cols="3">}}
 
@@ -33,7 +93,6 @@ No billable implementation without discovery. Every engagement starts with a tho
   badge="Discovery Included"
 >}}
 I design pipelines that integrate security, testing, and deployment logic into a single source of truth.
-
 
 **Key Deliverables:**
 - SDLC Audit & Branching Strategy
@@ -75,7 +134,6 @@ I design and implement the infrastructure, guardrails, and processes that let yo
 
 **Ideal For:** Engineering teams who want to adopt AI tooling but need security or compliance requirements met first
 {{< /service-card >}}
-
 
 {{< /services-grid >}}
 
