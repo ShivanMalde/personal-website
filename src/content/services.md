@@ -25,7 +25,7 @@ No billable implementation without discovery. Every engagement starts with a tho
 
 ## Assessment Services
 
-Short, fixed-scope engagements that give you a clear picture of where you stand and a prioritised roadmap — without committing to a full implementation project.
+Short, fixed-scope engagements that give you a clear picture of where you stand and a prioritised roadmap, without committing to a full implementation project.
 
 {{< services-grid cols="3">}}
 

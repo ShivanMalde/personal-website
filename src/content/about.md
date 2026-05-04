@@ -63,7 +63,7 @@ I've spent 10 years in the software industry, including 5+ years in dedicated De
 
 {{< timelineItem icon="code" header="Analyst Programmer" badge="Jun 2016 - Jul 2018" subheader="Gentrack UK" md="true">}}
 - Collaborated closely with client stakeholders in an on-site delivery model, building strong cross-functional communication skills across technical and business teams
-- Contributed across the full software development lifecycle — from design through implementation and testing — establishing a rigorous foundation in delivery quality
+- Contributed across the full software development lifecycle from design through implementation and testing, establishing a rigorous foundation in delivery quality
 - Enforced code review, automated testing, and version control standards, developing early quality engineering habits
 - Worked to Agile Scrum methodologies to improve turnaround time of client issues and enhancements
 {{< /timelineItem >}}
