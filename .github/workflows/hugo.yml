@@ -21,7 +21,7 @@ jobs:
 
       # Setup Hugo (install Hugo and dependencies)
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: ${{env.HUGO_VERSION}}
 
