@@ -6,7 +6,7 @@ on:
 
 env:
   WORKING_DIRECTORY: './hugo-site'
-  HUGO_VERSION:  0.147.8
+  HUGO_VERSION:  0.161.1
 
 jobs:
   build-and-deploy:
