@@ -6,7 +6,7 @@ on:
 
 env:
   WORKING_DIRECTORY: './hugo-site'
-  HUGO_VERSION:  0.147.8
+  HUGO_VERSION:  0.161.1
 
 jobs:
   build-and-deploy:
@@ -14,14 +14,14 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
       with:
         submodules: true
         fetch-depth: 0
 
       # Setup Hugo (install Hugo and dependencies)
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: ${{env.HUGO_VERSION}}
 

@@ -1,4 +1,4 @@
 baseURL = 'https://shivanmalde.com/'
-languageCode = 'en'
+locale = 'en'
 title = 'Shivan Malde | DevOps Manager and Platform Engineer'
 theme = "blowfish"
