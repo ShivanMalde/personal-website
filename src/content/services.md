@@ -1,7 +1,8 @@
 +++
-title = "Services"
+title = "DevOps Consulting Services - Kubernetes, Terraform & CI/CD | Shivan Malde"
 date = 2025-02-05T20:00:00Z
-description = "DevOps Consulting Services"
+description = "DevOps consulting services. Fixed-scope assessments and implementation projects for Kubernetes, Terraform, CI/CD pipelines, ISO 27001, and AI governance."
+keywords = ["DevOps consulting services", "Kubernetes consultant London", "Terraform consulting", "CI/CD pipeline architecture", "ISO 27001 readiness", "infrastructure as code consultant", "AI governance consulting", "platform engineering services"]
 draft = false
 layout = "simple"
 +++
