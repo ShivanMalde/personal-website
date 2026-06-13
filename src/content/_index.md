@@ -1,7 +1,7 @@
 +++
 title = "Shivan Malde"
 description = "DevOps consulting - Kubernetes, Terraform, Azure, and CI/CD pipelines for organisations that need infrastructure expertise without a full-time hire."
-keywords = ["DevOps consultant London", "Kubernetes consultant", "Terraform consultant", "Azure DevOps", "CI/CD pipelines", "platform engineering", "ISO 27001 consulting", "infrastructure as code"]
+keywords = ["DevOps consultant London", "Kubernetes consultant", "Terraform consultant", "Azure DevOps consultant London", "CI/CD pipelines", "platform engineering", "ISO 27001 consulting", "infrastructure as code", "freelance DevOps engineer UK", "SaaS infrastructure consultant", "cloud infrastructure consultant London", "DevOps consulting UK"]
 +++
 
 ---

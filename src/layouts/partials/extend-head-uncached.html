@@ -1,0 +1,212 @@
+{{/* Person schema - present on every page */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ .Site.BaseURL }}#person",
+  "name": "{{ .Site.Params.Author.name | safeJS }}",
+  "jobTitle": "DevOps Manager and Platform Engineer",
+  "description": "{{ .Site.Language.Params.description | safeJS }}",
+  "url": "{{ .Site.BaseURL }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}img/pro_portrait.jpg"
+  },
+  "sameAs": [
+    "https://linkedin.com/in/shivanmalde/",
+    "https://github.com/ShivanMalde"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "London",
+    "addressCountry": "GB"
+  },
+  "knowsAbout": [
+    "DevOps",
+    "Kubernetes",
+    "Terraform",
+    "Azure",
+    "AWS",
+    "CI/CD Pipelines",
+    "ISO 27001",
+    "Platform Engineering",
+    "Infrastructure as Code",
+    "AI Governance"
+  ]
+}
+</script>
+
+{{/* ProfessionalService schema - homepage only */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "{{ .Site.BaseURL }}#consulting",
+  "name": "Shivan Malde DevOps Consulting",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "DevOps consulting for organisations that need infrastructure expertise without a full-time hire. Specialising in Kubernetes, Terraform, Azure, CI/CD pipelines, and ISO 27001.",
+  "provider": {
+    "@id": "{{ .Site.BaseURL }}#person"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "London" },
+    { "@type": "Country", "name": "United Kingdom" }
+  ],
+  "serviceType": [
+    "DevOps Consulting",
+    "Platform Engineering",
+    "Infrastructure as Code",
+    "CI/CD Pipeline Architecture",
+    "ISO 27001 Readiness Assessment",
+    "AI Governance Consulting"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "DevOps Consulting Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ISO 27001 Readiness Assessment", "url": "{{ .Site.BaseURL }}services/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "DevOps Platform Health Check", "url": "{{ .Site.BaseURL }}services/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Governance Assessment", "url": "{{ .Site.BaseURL }}services/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CI/CD Pipeline Architecture", "url": "{{ .Site.BaseURL }}services/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IaC Migration & Hardening", "url": "{{ .Site.BaseURL }}services/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Development Infrastructure", "url": "{{ .Site.BaseURL }}services/" } }
+    ]
+  }
+}
+</script>
+{{ end }}
+
+{{/* FAQPage + Service schemas - services page only */}}
+{{ if eq .RelPermalink "/services/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical DevOps consulting engagement take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most projects complete within 8-16 weeks, depending on scope and complexity. The discovery phase typically takes 1-2 weeks, followed by 7-14 weeks for implementation delivered asynchronously to minimise disruption to your team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after the implementation is complete?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Post-implementation support includes documentation, team training, and optional ongoing maintenance to ensure your team is fully self-sufficient."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which cloud providers do you work with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I specialise in Azure and AWS, but have experience with multi-cloud strategies including GCP and hybrid environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size organisations do you work with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I am experienced in all sized companies from startup to enterprise, though my main focus is growing SaaS companies (20-200 employees) who need DevOps expertise to support their growth; particularly those preparing for or navigating security certifications like ISO 27001."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you help with existing infrastructure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. The discovery phase is designed to assess what you have and recommend either evolution or strategic migration paths."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in the discovery phase?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The discovery phase includes a comprehensive audit of your current infrastructure and configuration, gap analysis, risk identification, and a detailed technical roadmap with prioritised recommendations."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "ISO 27001 Readiness Assessment",
+    "description": "A structured gap analysis of your current controls against ISO 27001 Annex A, delivering a prioritised remediation roadmap, risk register baseline, and auditor-ready gap report.",
+    "provider": { "@id": "{{ .Site.BaseURL }}#person" },
+    "areaServed": "United Kingdom",
+    "url": "{{ .Permalink }}"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "DevOps Platform Health Check",
+    "description": "An audit of your existing CI/CD pipelines, infrastructure, and deployment processes scored against best-practice benchmarks, with a prioritised recommendations report.",
+    "provider": { "@id": "{{ .Site.BaseURL }}#person" },
+    "areaServed": "United Kingdom",
+    "url": "{{ .Permalink }}"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI Governance Assessment",
+    "description": "A review of your engineering team's AI tool usage against ISO 42001 controls, delivering policy documentation and a control gap analysis for stakeholders and certifiers.",
+    "provider": { "@id": "{{ .Site.BaseURL }}#person" },
+    "areaServed": "United Kingdom",
+    "url": "{{ .Permalink }}"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "CI/CD Pipeline Architecture",
+    "description": "Design and implementation of CI/CD pipelines integrating security scanning, automated testing, production promotion logic, and self-service deployment capabilities.",
+    "provider": { "@id": "{{ .Site.BaseURL }}#person" },
+    "areaServed": "United Kingdom",
+    "url": "{{ .Permalink }}"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "IaC Migration & Hardening",
+    "description": "Migration of legacy cloud footprints to versioned, modular Terraform or OpenTofu code with automated state management, multi-environment design, and policy-as-code guardrails.",
+    "provider": { "@id": "{{ .Site.BaseURL }}#person" },
+    "areaServed": "United Kingdom",
+    "url": "{{ .Permalink }}"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI Development Infrastructure",
+    "description": "Design and implementation of infrastructure, guardrails, and processes enabling engineering teams to adopt AI coding tools safely, aligned to ISO 42001, with full audit trail.",
+    "provider": { "@id": "{{ .Site.BaseURL }}#person" },
+    "areaServed": "United Kingdom",
+    "url": "{{ .Permalink }}"
+  }
+]
+</script>
+{{ end }}
+
+{{/* AboutPage schema - about page only */}}
+{{ if eq .RelPermalink "/about/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": "{{ .Title | safeJS }}",
+  "url": "{{ .Permalink }}",
+  "description": "{{ .Description | safeJS }}",
+  "mainEntity": {
+    "@id": "{{ .Site.BaseURL }}#person"
+  }
+}
+</script>
+{{ end }}

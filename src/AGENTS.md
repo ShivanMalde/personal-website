@@ -113,6 +113,20 @@ Contains the author name, bio, profile image path, and social links that appear 
 ### `config/_default/menus.en.toml`
 Defines the top navigation bar items and their order (`weight`).
 
+### `layouts/partials/extend-head-uncached.html`
+Injects JSON-LD structured data into every page's `<head>` without modifying the Blowfish theme. It is called uncached so it has access to the full per-page context (`.RelPermalink`, `.Permalink`, etc.).
+
+Contains three conditional blocks:
+- **All pages** — `Person` schema (name, job title, London address, LinkedIn/GitHub sameAs links).
+- **Homepage only** — `ProfessionalService` schema with the full service catalogue as an `OfferCatalog`.
+- **`/services/` only** — `FAQPage` schema (mirrors the accordion FAQ section) and a `Service` schema for each of the six offerings.
+- **`/about/` only** — `ProfilePage` schema linked back to the `Person` entity.
+
+When adding or renaming a service, or changing FAQ content, update both the content file and the corresponding block in this partial to keep them in sync.
+
+### `static/site.webmanifest`
+PWA manifest file — controls the site name shown when a user adds the site to their home screen. Keep `name` and `short_name` set to `"Shivan Malde"`.
+
 ---
 
 ## Code style

@@ -1,6 +1,7 @@
 +++
-title = "Contact Me"
-description = "Client questionnaire"
+title = "Book a DevOps Consultation | Shivan Malde"
+description = "Start your DevOps consulting engagement. Fill in the intake form to discuss your infrastructure challenges, Kubernetes, Terraform, CI/CD, or ISO 27001 requirements."
+keywords = ["book DevOps consultant", "DevOps consulting inquiry", "hire infrastructure consultant London", "Kubernetes consultant contact", "ISO 27001 assessment consultation", "DevOps discovery call", "freelance DevOps engineer UK contact"]
 draft = false
 layout = "simple"
 +++

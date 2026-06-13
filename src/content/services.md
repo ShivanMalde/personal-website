@@ -2,7 +2,7 @@
 title = "DevOps Consulting Services - Kubernetes, Terraform & CI/CD | Shivan Malde"
 date = 2025-02-05T20:00:00Z
 description = "DevOps consulting services. Fixed-scope assessments and implementation projects for Kubernetes, Terraform, CI/CD pipelines, ISO 27001, and AI governance."
-keywords = ["DevOps consulting services", "Kubernetes consultant London", "Terraform consulting", "CI/CD pipeline architecture", "ISO 27001 readiness", "infrastructure as code consultant", "AI governance consulting", "platform engineering services"]
+keywords = ["DevOps consulting services", "Kubernetes consultant London", "Terraform consulting UK", "CI/CD pipeline architecture", "ISO 27001 readiness assessment", "infrastructure as code consultant", "AI governance consulting", "platform engineering services", "DevOps platform health check", "IaC migration consultant", "Azure DevOps consulting", "SaaS DevOps consultant"]
 draft = false
 layout = "simple"
 +++

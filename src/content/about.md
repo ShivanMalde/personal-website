@@ -4,7 +4,7 @@ date = 2025-02-23T23:42:27Z
 draft = false
 layout = "simple"
 description = "Shivan Malde - DevOps Manager and Platform Engineer with 10 years experience in Kubernetes, Azure, Terraform, ISO 27001, and enterprise CI/CD."
-keywords = ["DevOps Manager London", "Platform Engineer", "Kubernetes", "Terraform", "Azure", "ISO 27001", "CI/CD", "infrastructure as code", "cloud engineer London"]
+keywords = ["DevOps Manager London", "Platform Engineer", "Kubernetes", "Terraform", "Azure", "ISO 27001", "CI/CD", "infrastructure as code", "cloud engineer London", "DevOps manager for hire", "cloud infrastructure consultant London", "freelance platform engineer UK", "Azure DevOps consultant", "Kubernetes consulting UK"]
 +++
 
 {{< lead >}}
